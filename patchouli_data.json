@@ -1,0 +1,72 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "apotheosis:apoth_chronicle": {
+      "viewedEntries": [
+        "apotheosis:potion/effects/bleeding",
+        "apotheosis:potion/charms/curios",
+        "apotheosis:potion/charms/charm"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "patchouli:ornithology": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "patchouli:stormchasers": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "babyfat:the_book_of_baby_fat": {
+      "viewedEntries": [
+        "babyfat:introduction/aquatic_vegetation_entry",
+        "babyfat:introduction/the_birds_and_the_bees_entry",
+        "babyfat:introduction/the_basics_entry",
+        "babyfat:introduction/variants_galore_entry"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "patchouli:petownership": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "patchouli:herbalism": {
+      "viewedEntries": [
+        "patchouli:test/test_entry",
+        "patchouli:plants/slime_fern",
+        "patchouli:plants/rafflesia",
+        "patchouli:floral_fauna/flutter",
+        "patchouli:weathering/ice_crops",
+        "patchouli:weathering/cracked_bricks",
+        "patchouli:floral_fauna/glare",
+        "patchouli:plants/ball_cactus"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "patchouli:fashion": {
+      "viewedEntries": [
+        "patchouli:living_style/snuffles",
+        "patchouli:vanities/custom_vanities",
+        "patchouli:vanities/concept_art",
+        "patchouli:vanities/styling_table",
+        "patchouli:vanities/mannequin_intro",
+        "patchouli:sterling_banners",
+        "patchouli:custom_vanity/intro",
+        "patchouli:vanity/concept_art",
+        "patchouli:vanity/styling_table",
+        "patchouli:vanity/mannequin_intro",
+        "patchouli:mannequins/intro",
+        "patchouli:mannequins/other"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Concept Art",
+  "icon": "minecraft:light_blue_dye",
+  "category": "patchouli:custom_vanity",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "If skilled pixel artist, make own vanities. Little complicated. Require resource pack and datapack, must be uploaded to server. Check link for example."
+    }
+  ]
+}

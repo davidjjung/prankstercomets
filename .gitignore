@@ -1,0 +1,48 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+
+# Files from Forge MDK
+forge*changelog.txt
+logs
+.cache
+
+# The actual modpack stuff
+resourcepacks/
+saves/
+screenshots/
+themes/
+.curseclient
+minecraftinstance.json
+options.txt
+rhino.local.properties
+usercache.json
+usernamecache.json
+WailaErrorOutput.txt
+logs/
+mods/
+essential/
+emojiful/
+config/
+blueprint-online-image-cache/
+.idea/
+crash-reports/

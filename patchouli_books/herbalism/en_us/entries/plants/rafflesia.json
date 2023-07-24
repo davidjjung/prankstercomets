@@ -1,0 +1,15 @@
+{
+  "name": "Rafflesia Flowers",
+  "icon": "minecraft:writable_book",
+  "category": "patchouli:plants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Rafflesia flowers can be found in jungles, and are characterized by a scent almost exactly reminiscent of zombies.$(br2)Given that this smell does not attract any creatures for pollination, it's curious that they do this. Perhaps they are simply ill-tempered?"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Stepping on them or otherwise irritating them will cause them to belch a poisonous miasma.$(br2)Pouring a soup made from mushrooms and wildflowers can change the nature of the cloud emitted."
+    }
+  ]
+}

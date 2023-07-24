@@ -1,0 +1,15 @@
+{
+  "name": "A Stifling Force",
+  "icon": "minecraft:writable_book",
+  "category": "patchouli:weathering",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Nature tends to be a rampant force if left untended. However, there are a few direct counters to its madness...$(br2)Placing ice below soil or sand will halt the growth of any plants above it."
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

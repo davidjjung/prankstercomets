@@ -1,0 +1,11 @@
+{
+  "name": "Snuffles",
+  "icon": "minecraft:writable_book",
+  "category": "patchouli:living_style",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Snuffles are good pet. Feed potato to breed. Follow player with potato. Shear for snuffle fluff. Frost buildup clearable with fire or magma cream. Refrost with powder snow or snowy weather. Slimeball for hairstyle. Fluff blocks gently snow below if unoccupied."
+    }
+  ]
+}

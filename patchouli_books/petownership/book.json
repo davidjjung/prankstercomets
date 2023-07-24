@@ -1,0 +1,9 @@
+{
+  "name": "Pet Owner's Manual",
+  "book_texture": "patchouli:textures/gui/book_red.png",
+  "model": "patchouli:book_red",
+  "landing_text": "A cozy read for when it's raining cats and dogs. And axolotls. And rabbits, and horses, and many more.",
+  "version": "0",
+  "show_progress": false,
+  "use_blocky_font": true
+}

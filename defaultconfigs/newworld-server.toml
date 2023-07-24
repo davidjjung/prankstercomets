@@ -1,0 +1,7 @@
+
+[Generation]
+	#Whether fir trees should rarely generate in regular meadows.
+	"Firs in Meadows" = true
+	#Whether fir trees should generate semi-commonly in Taiga biomes.
+	"Firs in Taigas" = true
+

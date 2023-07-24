@@ -1,0 +1,11 @@
+{
+  "name": "Slime Ferns",
+  "icon": "minecraft:writable_book",
+  "category": "patchouli:plants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Slime ferns prefer moist and dark environments. You'll know you've found a patch when it smells like a strong rain has recently passed through. $(br2)They indicate areas where slimes may spawn on full moons, and can spread via bone meal."
+    }
+  ]
+}

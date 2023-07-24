@@ -1,0 +1,11 @@
+{
+  "name": "Mannequins!",
+  "icon": "supplementaries:statue",
+  "category": "patchouli:mannequins",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "There are others. Statuettes are miniaturized versions. Cannot be posed as diversely."
+    }
+  ]
+}

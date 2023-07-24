@@ -1,0 +1,9 @@
+{
+  "name": "The Herbalist's Guide",
+  "book_texture": "patchouli:textures/gui/book_green.png",
+  "model": "patchouli:book_green",
+  "landing_text": "Weeeeeed.",
+  "version": "0",
+  "show_progress": false,
+  "use_blocky_font": true
+}

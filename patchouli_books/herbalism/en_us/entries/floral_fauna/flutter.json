@@ -1,0 +1,15 @@
+{
+  "name": "Flutters",
+  "icon": "minecraft:writable_book",
+  "category": "patchouli:floral_fauna",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Companion from the Lush Caves. Can be tamed, needs lots of types of flowers. Can be armed with flower pot. Shift+R-Click to gather while potted. Breed with bone meal when tamed."
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Glares",
+  "icon": "minecraft:writable_book",
+  "category": "patchouli:floral_fauna",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Glares dislike darkness. They can secrete an odd light source when given glow berries, which can then be bottled."
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

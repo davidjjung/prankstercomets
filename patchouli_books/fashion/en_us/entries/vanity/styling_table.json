@@ -1,0 +1,11 @@
+{
+  "name": "The Styling Table",
+  "icon": "vanity:styling_table",
+  "category": "patchouli:vanity",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Styling Table is where the magic of vanity takes root! $(br2)Place your item to glamorize in the left slot, and your Concept Art on the right."
+    }
+  ]
+}

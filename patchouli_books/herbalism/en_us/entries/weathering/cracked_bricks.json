@@ -1,0 +1,15 @@
+{
+  "name": "Mind the Gap",
+  "icon": "minecraft:writable_book",
+  "category": "patchouli:weathering",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Where industry and architects falter, nature chooses to flourish anew...$(br2)Grass can be planted on cracked blocks of all kinds. They'll take root, I promise."
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

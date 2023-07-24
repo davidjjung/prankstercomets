@@ -1,0 +1,11 @@
+{
+  "name": "Concept Art",
+  "icon": "vanity:concept_art",
+  "category": "patchouli:vanity",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Concept Art used in Styling Table, on right side. Many ways to gather. Each concept art only work on certain items."
+    }
+  ]
+}

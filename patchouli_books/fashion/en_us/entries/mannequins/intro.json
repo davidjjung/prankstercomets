@@ -1,0 +1,21 @@
+{
+  "name": "Mannequins!",
+  "icon": "mannequins:mannequin",
+  "category": "patchouli:mannequins",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Mannequins easy. Interact to open scroll menu. Can hold items. Wear armor. Use pickaxe on statue face to scroll options."
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["prankstercomets:textures/gui/entries/fashion/outcry.png"],
+      "text": "A statue expresses what historians may call 'mild discontent.'"
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["prankstercomets:textures/gui/entries/fashion/dismay.png"],
+      "text": "Line cooks struggling in the kitchen."
+    }
+  ]
+}
