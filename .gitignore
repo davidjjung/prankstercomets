@@ -27,7 +27,7 @@ logs
 .cache
 
 # The actual modpack stuff
-resourcepacks/
+*.zip
 saves/
 screenshots/
 themes/
