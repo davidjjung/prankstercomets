@@ -1,0 +1,14 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "savage_and_ravage:weight"
+  },
+  "providers": [
+    {
+      "item": "savage_and_ravage:trickster_spawn_egg"
+    },
+    {
+      "item": "savage_and_ravage:runed_gloomy_tiles"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+	id: "0EBC7BEFF9706B13"
+	order_index: 0
+	title: "Lush Caves Bundle"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:axolotl_bucket" }
+		{ item: "minecraft:big_dripleaf", count: 4 }
+	]
+}

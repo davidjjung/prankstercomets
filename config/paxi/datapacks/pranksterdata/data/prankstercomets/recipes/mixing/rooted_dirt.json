@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "minecraft:hanging_roots"
+    },
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "minecraft:hanging_roots"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:rooted_dirt",
+      "count": 2
+    }
+  ]
+}

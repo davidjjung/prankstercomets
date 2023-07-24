@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "undergarden:indigo_mushroom"
+    },
+    {
+      "item": "undergarden:indigo_mushroom"
+    },
+    {
+      "item": "undergarden:goo_ball"
+    }
+  ],
+  "result": {
+    "item": "undergarden:indigo_stew"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

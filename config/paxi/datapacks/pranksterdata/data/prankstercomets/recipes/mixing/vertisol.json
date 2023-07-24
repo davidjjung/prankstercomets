@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "immersive_weathering:cracked_mud"
+    },
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "immersive_weathering:cracked_mud"
+    }
+  ],
+  "results": [
+    {
+      "item": "immersive_weathering:vertisol",
+      "count": 4
+    }
+  ]
+}

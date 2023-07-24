@@ -1,0 +1,11 @@
+{
+  "entity_type": "naturalist:butterfly",
+  "grant":
+  [
+    "bmorph:flying"
+  ],
+  "revoke":
+  [
+
+  ]
+}

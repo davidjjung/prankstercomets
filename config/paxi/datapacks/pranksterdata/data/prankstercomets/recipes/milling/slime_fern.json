@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "habitat:slime_fern"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:slime_ball",
+      "count": 2
+    },
+    {
+      "item": "minecraft:slime_ball",
+      "chance": 0.3
+    }
+  ],
+  "processingTime": 100
+}

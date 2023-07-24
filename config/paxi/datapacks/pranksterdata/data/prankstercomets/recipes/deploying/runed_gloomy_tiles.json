@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "savage_and_ravage:conch_of_conjuring"
+    },
+    {
+      "item": "savage_and_ravage:gloomy_tiles"
+    }
+  ],
+  "results": [
+    {
+      "item": "savage_and_ravage:runed_gloomy_tiles"
+    }
+  ]
+}

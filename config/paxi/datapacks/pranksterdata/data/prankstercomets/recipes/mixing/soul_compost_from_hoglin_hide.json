@@ -1,0 +1,31 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:soul_soil"
+    },
+    {
+      "item": "minecraft:twisting_vines"
+    },
+    {
+      "item": "minecraft:twisting_vines"
+    },
+    {
+      "item": "minecraft:bone"
+    },
+    {
+      "item": "minecraft:bone"
+    },
+    {
+      "item": "nethersdelight:hoglin_hide"
+    },
+    {
+      "item": "nethersdelight:hoglin_hide"
+    }
+  ],
+  "results": [
+    {
+      "item": "nethersdelight:soul_compost"
+    }
+  ]
+}

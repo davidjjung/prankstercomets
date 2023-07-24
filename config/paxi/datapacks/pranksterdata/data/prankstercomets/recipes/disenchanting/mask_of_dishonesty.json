@@ -1,0 +1,17 @@
+{
+  "type": "create_enchantment_industry:disenchanting",
+  "ingredients": [
+    {
+      "item": "savage_and_ravage:mask_of_dishonesty"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:leather_helmet"
+    },
+    {
+      "fluid": "create_enchantment_industry:experience",
+      "amount": 350
+    }
+  ]
+}

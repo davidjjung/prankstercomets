@@ -1,0 +1,626 @@
+{
+	id: "0BF1CC9DB3F67AC8"
+	group: "306F027EF23760DF"
+	order_index: 1
+	filename: "neutral_factions"
+	title: "Things To Do"
+	icon: "minecraft:oxeye_daisy"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.8d
+			y: -2.1d
+			shape: "square"
+			description: [
+				"Just here to vibe? Not to fret! Below is an alphabet's worth of roles to play."
+				""
+				"You can purchase parts of the alphabet with comet medals."
+			]
+			size: 1.4d
+			id: "29AE3C4E6367BFB6"
+			tasks: [{
+				id: "3F5E31C8B1A2FF16"
+				type: "checkmark"
+				title: "Overview"
+			}]
+		}
+		{
+			title: "Ornithologist"
+			x: 3.0d
+			y: 0.0d
+			description: [
+				"Many a feathered friend flutters 'round these parts. Perhaps this guide can help with finding them?"
+				"insert dummy guide on becoming bird. but also generally speaking it's a pretty good tool because the birds here are pretty useful"
+			]
+			hide_dependency_lines: true
+			dependencies: ["53999384F7A9A57B"]
+			hide: true
+			id: "78D46C6880A7674E"
+			tasks: [{
+				id: "33276B1A607296CF"
+				type: "item"
+				item: "minecraft:spyglass"
+			}]
+			rewards: [{
+				id: "6BDAF9B3786E3976"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "patchouli:ornithology"
+					}
+				}
+			}]
+		}
+		{
+			title: "Zookeeper"
+			x: -4.0d
+			y: 2.0d
+			description: ["Looking to raise animals both large and small? Look no further; we have a couple tips and tricks from industry experts."]
+			hide_dependency_lines: true
+			dependencies: ["169DC440B3C1FD72"]
+			hide: true
+			id: "5DA907C859A568AC"
+			tasks: [{
+				id: "384021C079805692"
+				type: "item"
+				item: "supplementaries:cage"
+			}]
+		}
+		{
+			title: "Goldfish Farmer"
+			x: -0.5d
+			y: 1.0d
+			subtitle: "Kiss of Sunrise"
+			description: [
+				"A zen way to go about your mornings. Ranchu goldfish can produce hundreds of dazzling variants with enough selective breeding."
+				""
+				"These fish will breed (no food necessary!) at sunrise, if water lettuce is floating around nearby. Make sure to give them plenty of room, and good luck finding them all!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6C91851765BBBCE9"]
+			hide: true
+			id: "394870838C0C0513"
+			tasks: [{
+				id: "54DCB1ECFB8E663E"
+				type: "item"
+				item: "babyfat:ranchu_bucket"
+			}]
+			rewards: [{
+				id: "6FD9CE01C37F82D1"
+				type: "item"
+				item: "babyfat:water_lettuce"
+				count: 4
+			}]
+		}
+		{
+			title: "Train Conductor"
+			icon: "create:schedule"
+			x: -1.0d
+			y: 0.0d
+			subtitle: "All Aboard"
+			description: ["Transportation networks are crucial to keeping a world interconnected. It's surprisingly easy to get a train up and running; give it a shot!"]
+			hide_dependency_lines: true
+			dependencies: ["602B00AF2368E660"]
+			hide: true
+			dependency_requirement: "all_started"
+			id: "2705A5B32D0B5F13"
+			tasks: [{
+				id: "09FD1B3E4C43A7DC"
+				type: "item"
+				item: "create:track_station"
+			}]
+			rewards: [{
+				id: "0AFE33AC791889CA"
+				type: "item"
+				item: "create:track"
+				count: 32
+			}]
+		}
+		{
+			title: "Bartender"
+			x: 0.0d
+			y: 2.0d
+			subtitle: "Bottoms Up!"
+			description: ["Grow your brewery and refine your unique approach to hospitality."]
+			hide_dependency_lines: true
+			dependencies: ["3CE34FD7DA768151"]
+			hide: true
+			id: "069E536D0ACE417D"
+			tasks: [{
+				id: "4D4B332C11AF4DC5"
+				type: "item"
+				item: "brewinandchewin:keg"
+			}]
+			rewards: [{
+				id: "70A4574FE97B7530"
+				type: "item"
+				item: "brewinandchewin:tankard"
+				count: 8
+			}]
+		}
+		{
+			title: "Equestrian"
+			x: -3.0d
+			y: 0.0d
+			subtitle: "Man's Second Best Friend"
+			description: [
+				"Compete in races or breed for stats; you decide!"
+				""
+				"Include a guide that lists everything about all the steeds in the pack--striders, horses, laviathans, pigs, you name it."
+			]
+			hide_dependency_lines: true
+			dependencies: ["6C91851765BBBCE9"]
+			hide: true
+			id: "1619CB1273B64543"
+			tasks: [{
+				id: "0FE18E6DCB7ECEB4"
+				type: "item"
+				item: "minecraft:saddle"
+			}]
+			rewards: [{
+				id: "62EADBBB7C4F791B"
+				type: "item"
+				item: "farmersdelight:horse_feed"
+				count: 3
+			}]
+		}
+		{
+			title: "Daredevil"
+			x: -2.5d
+			y: 1.0d
+			description: [
+				"Trick off of the nonexistent wakes of the Nether with a straddleboard! Watch out for walls and ceilings."
+				""
+				"Alternatively, host a straddleboard competition. Rig the competition! Pat yourself on the back in your very own trophy room. Washed-up athletes have infinite rebranding potential..."
+			]
+			hide_dependency_lines: true
+			dependencies: ["3CE34FD7DA768151"]
+			hide: true
+			id: "56F585D3E8C942EC"
+			tasks: [{
+				id: "32866B670BD5D05D"
+				type: "item"
+				item: {
+					id: "alexsmobs:straddleboard"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Courier"
+			x: -2.0d
+			y: 2.0d
+			description: ["Deliver presents and packages hither and thither. Choose your preferred method of transportation--are you a Pony Express or Railway Mail type?"]
+			hide_dependency_lines: true
+			dependencies: ["3CE34FD7DA768151"]
+			hide: true
+			id: "778525B68311A393"
+			tasks: [{
+				id: "3A7FCB8C9CE74568"
+				type: "item"
+				title: "Any #supplementaries:presents"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "supplementaries:presents"
+					}
+				}
+			}]
+			rewards: [{
+				id: "729592A7FF9F6E38"
+				type: "item"
+				item: "mekanism:cardboard_box"
+				count: 4
+			}]
+		}
+		{
+			title: "Queen Bee"
+			x: -5.0d
+			y: 0.0d
+			description: [
+				"Sweet, sweet honey. Build your buzzy empire, brick by honeycomb brick."
+				"insert dummy guide on becoming bee (!)"
+			]
+			hide_dependency_lines: true
+			dependencies: ["7844EABF60856D53"]
+			hide: true
+			id: "72F6BDF88DD2EF34"
+			tasks: [{
+				id: "34A9034D23B8BE50"
+				type: "item"
+				item: "buzzier_bees:bee_bottle"
+			}]
+			rewards: [{
+				id: "604E87FB65D980FD"
+				type: "item"
+				item: "minecraft:bee_nest"
+			}]
+		}
+		{
+			title: "Real Estate Agent"
+			x: -2.0d
+			y: 0.0d
+			description: [
+				"Certain wooden signs are imbued with the power to designate areas."
+				""
+				"The first line should be \"[Area]\" followed by a number representing it's radius. The next line should be the place's title."
+				""
+				"A valid example of an area-designating sign would be:"
+				""
+				"[Area] 25"
+				"Dog Pat Town"
+			]
+			hide_dependency_lines: true
+			dependencies: ["7844EABF60856D53"]
+			hide: true
+			id: "6976535A5F5CCB72"
+			tasks: [{
+				id: "445B2A7179920B7C"
+				type: "item"
+				item: "minecraft:oak_sign"
+			}]
+		}
+		{
+			title: "Interpreter"
+			x: 2.0d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["30850CE845BB6F19"]
+			hide: true
+			id: "1D1645DC06438766"
+			tasks: [{
+				id: "4914CEB97A7A8C92"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Herbalist"
+			x: 0.5d
+			y: 1.0d
+			description: ["Remember to mention ivy, immersive weathering plant accumulation, hemp, water lettuce, etc."]
+			hide_dependency_lines: true
+			dependencies: ["30850CE845BB6F19"]
+			hide: true
+			id: "0ADAC1CC07926075"
+			tasks: [{
+				id: "68D6E1258EAED917"
+				type: "item"
+				item: "druidcraftrg:hemp"
+			}]
+			rewards: [{
+				id: "78FBE68B21BCEC44"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "patchouli:herbalism"
+					}
+				}
+			}]
+		}
+		{
+			title: "Pet Owner"
+			x: 4.0d
+			y: 0.0d
+			description: ["Managing an animal can be a full time job. Here are a few pointers to help you take care of them the best you can!"]
+			hide_dependency_lines: true
+			dependencies: ["53999384F7A9A57B"]
+			hide: true
+			id: "3D17D32A202F949C"
+			tasks: [
+				{
+					id: "68057B1314144C80"
+					type: "item"
+					title: "Any #domesticationinnovation:pet_beds"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "domesticationinnovation:pet_beds"
+						}
+					}
+				}
+				{
+					id: "150012986977E532"
+					type: "item"
+					item: "domesticationinnovation:collar_tag"
+				}
+			]
+		}
+		{
+			title: "Weather Chaser"
+			x: -4.0d
+			y: 0.0d
+			description: ["Dummy guide for controlling the weather"]
+			hide_dependency_lines: true
+			dependencies: ["169DC440B3C1FD72"]
+			hide: true
+			id: "078748B16B6AF15B"
+			tasks: [{
+				id: "22EADCD55B83C8A1"
+				type: "checkmark"
+				title: "Storm Chaser"
+			}]
+			rewards: [{
+				id: "348E8889CDB3A95A"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "patchouli:stormchasers"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			description: ["Snipers and Shotguns? Prop Hunt? Wipeout? Bedwars? Hole in the Wall? The sky is the limit!"]
+			hide_dependency_lines: true
+			dependencies: ["53999384F7A9A57B"]
+			hide: true
+			id: "042E4ABBECAB4D8E"
+			tasks: [{
+				id: "40B5477B9B0C2C91"
+				type: "checkmark"
+				title: "Minigame MC"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["602B00AF2368E660"]
+			hide: true
+			id: "16259879D440B5D9"
+			tasks: [{
+				id: "544B6EEF7570A115"
+				type: "checkmark"
+				title: "Undergardener"
+			}]
+		}
+		{
+			title: "Stormchaser"
+			x: -3.5d
+			y: 1.0d
+			subtitle: "Gotta Go Fast"
+			hide_dependency_lines: true
+			dependencies: ["7844EABF60856D53"]
+			hide: true
+			id: "16BDE40F2F572446"
+			tasks: [{
+				id: "7CF7443BAEE146FA"
+				type: "checkmark"
+				title: "Sneakerhead"
+			}]
+		}
+		{
+			title: "Fashion Artist"
+			x: -1.5d
+			y: 1.0d
+			description: [
+				"Bring your best clothing ensembles to the red carpet. Mannequins and statues are a photogenic way to create spectacle in static scenes."
+				"insert dummy guide on vanities and also mannequins (including Becoming Mannequins)"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6C91851765BBBCE9"]
+			hide: true
+			id: "5F50640654E6E96C"
+			tasks: [{
+				id: "734C18F4CF6A383E"
+				type: "item"
+				item: "mannequins:mannequin"
+			}]
+		}
+		{
+			title: "Jukebox Enthusiast"
+			x: 1.5d
+			y: 1.0d
+			description: ["Music enjoyers, rejoice! From boomboxes to album radios, there are many ways to"]
+			hide_dependency_lines: true
+			dependencies: ["30850CE845BB6F19"]
+			hide: true
+			id: "2A38347E1CA8ECD9"
+			tasks: [{
+				id: "694CCF2344102E97"
+				type: "item"
+				item: "etched:etching_table"
+			}]
+			rewards: [{
+				id: "6B9C835A6E7F1A87"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "patchouli:music"
+					}
+				}
+			}]
+		}
+		{
+			title: "X-Ray Technician"
+			x: -3.0d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["169DC440B3C1FD72"]
+			hide: true
+			id: "2B45320937C80031"
+			tasks: [{
+				id: "797450779443F719"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "King Koopa"
+			x: 2.5d
+			y: 1.0d
+			description: ["Establish a kingdom among a smattering of turtle species. Establish dominance and go forth in the name of Reptilia."]
+			hide_dependency_lines: true
+			dependencies: ["30850CE845BB6F19"]
+			hide: true
+			id: "7628E093B3FA6EC2"
+			tasks: [{
+				id: "29E9D2FD08AC74D7"
+				type: "checkmark"
+				title: "King of the Penguins"
+			}]
+		}
+		{
+			title: "Antique Aesthete"
+			x: -4.5d
+			y: 1.0d
+			subtitle: "Stuffy in style"
+			description: ["Bask in the glow of unsafe working conditions, and rediscover what made industry so revolutionary. Let the clockwork speak for itself!"]
+			hide_dependency_lines: true
+			dependencies: ["3CE34FD7DA768151"]
+			hide: true
+			id: "747EFC245290A1B1"
+			tasks: [{
+				id: "485998CECF43E3EA"
+				type: "item"
+				item: "supplementaries:jar_boat"
+			}]
+			rewards: [{
+				id: "5178692B03204140"
+				type: "item"
+				item: "supplementaries:antique_ink"
+				count: 8
+			}]
+		}
+		{
+			title: "Vacuum Salesperson"
+			x: -1.0d
+			y: 2.0d
+			description: [
+				"Fill the void in your life with door-to-door transactions, reselling the Wandering Trader's most precious ware at an unfairly high price."
+				""
+				"Alternatively, let the instrument of cleanliness speak to you. Live out the rest of your days as the maid you knew you always wanted to be. Peace at last."
+			]
+			hide_dependency_lines: true
+			dependencies: ["602B00AF2368E660"]
+			hide: true
+			id: "1C7269C602C26E8F"
+			tasks: [{
+				id: "541A0CF0B40DBE9E"
+				type: "item"
+				item: "bellybutton:vacuum"
+			}]
+		}
+		{
+			title: "Locksmith"
+			x: 3.5d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["53999384F7A9A57B"]
+			hide: true
+			id: "0028DD49D8736417"
+			tasks: [{
+				id: "11F2016E10E59C8C"
+				type: "item"
+				item: "locksmith:locksmithing_table"
+			}]
+		}
+		{
+			title: "Amusing books, curious discoveries."
+			x: 0.39999999999999947d
+			y: -2.5d
+			size: 0.8d
+			id: "3CE34FD7DA768151"
+			tasks: [{
+				id: "472C6B791B2BEFD2"
+				type: "item"
+				item: "minecraft:diamond"
+				consume_items: true
+			}]
+		}
+		{
+			title: "Enticing features, guarded..."
+			x: 1.1999999999999997d
+			y: -2.5d
+			size: 0.8d
+			id: "6C91851765BBBCE9"
+			tasks: [{
+				id: "00FA86E3E8532BD7"
+				type: "item"
+				item: "minecraft:diamond"
+				consume_items: true
+			}]
+		}
+		{
+			title: "hidden in jokes, knowledge."
+			x: 2.0d
+			y: -2.5d
+			size: 0.8d
+			id: "30850CE845BB6F19"
+			tasks: [{
+				id: "377007E9228C5A34"
+				type: "item"
+				item: "minecraft:diamond"
+				consume_items: true
+			}]
+		}
+		{
+			title: "Listen, mon nounours, or pay:"
+			x: 0.0d
+			y: -1.7000000000000002d
+			size: 0.8d
+			id: "53999384F7A9A57B"
+			tasks: [{
+				id: "06B0BB9D88579680"
+				type: "item"
+				item: "minecraft:diamond"
+				consume_items: true
+			}]
+		}
+		{
+			title: "quests reveal something..."
+			x: 0.7999999999999998d
+			y: -1.7000000000000002d
+			size: 0.8d
+			id: "7844EABF60856D53"
+			tasks: [{
+				id: "57CE9AD3930D83AB"
+				type: "item"
+				item: "minecraft:diamond"
+				consume_items: true
+			}]
+		}
+		{
+			title: "...titillating. Understood? Via"
+			x: 1.5999999999999996d
+			y: -1.7000000000000002d
+			size: 0.8d
+			id: "602B00AF2368E660"
+			tasks: [{
+				id: "4DD49433253FE9AE"
+				type: "item"
+				item: "minecraft:diamond"
+				consume_items: true
+			}]
+		}
+		{
+			title: "willpower/x-factor, your zenith..."
+			x: 2.4d
+			y: -1.7000000000000002d
+			size: 0.8d
+			id: "169DC440B3C1FD72"
+			tasks: [{
+				id: "37159644DC394E16"
+				type: "item"
+				item: "minecraft:diamond"
+				consume_items: true
+			}]
+		}
+	]
+	quest_links: [ ]
+}

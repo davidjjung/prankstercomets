@@ -1,0 +1,22 @@
+
+#Trumpet Skeleton spawn settings
+[spawning]
+	#Spawn weight
+	#Range: > 0
+	spawn_weight = 1
+	#Minimum Trumpet Skeletons in group.
+	#Range: > 1
+	min_group = 1
+	#Maximum Trumpet Skeletons in group.
+	#Range: > 1
+	max_group = 1
+
+#Trumpet
+[trumpet]
+	#Trumpet durability.
+	#Range: > 1
+	durability = 420
+	#Trumpet range ( in blocks ).
+	#Range: > 1
+	range = 10
+

@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "immersive_weathering:silt"
+    },
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "immersive_weathering:silt"
+    }
+  ],
+  "results": [
+    {
+      "item": "immersive_weathering:fluvisol",
+      "count": 4
+    }
+  ]
+}

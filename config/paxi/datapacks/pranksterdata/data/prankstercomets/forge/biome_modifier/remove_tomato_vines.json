@@ -1,0 +1,8 @@
+{
+  "type": "forge:remove_features",
+  "biomes": "terralith:arid_highalands",
+  "features": [
+    "farmersdelight:patch_wild_tomatoes"
+  ],
+  "step": "vegetal_decoration"
+}

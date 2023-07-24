@@ -1,0 +1,33 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:dirt"
+    },
+    [
+      {
+        "item": "twigs:pebble"
+      },
+      {
+        "item": "alexsmobs:rocky_shell"
+      }
+    ],
+    {
+      "item": "minecraft:dirt"
+    },
+    [
+      {
+        "item": "twigs:pebble"
+      },
+      {
+        "item": "alexsmobs:rocky_shell"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "item": "twigs:rocky_dirt",
+      "count": 2
+    }
+  ]
+}

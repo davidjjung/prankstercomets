@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "savage_and_ravage:wand_of_freezing"
+    },
+    {
+      "item": "minecraft:porkchop"
+    }
+  ],
+  "results": [
+    {
+      "item": "snowpig:frozen_porkchop"
+    }
+  ]
+}

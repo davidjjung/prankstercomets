@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:diamond",
+    "minecraft:emerald",
+    "minecraft:redstone",
+    "minecraft:gold_ingot",
+    "minecraft:end_stone",
+    "minecraft:iron_ingot"
+  ],
+  "optional": [
+  ]
+}

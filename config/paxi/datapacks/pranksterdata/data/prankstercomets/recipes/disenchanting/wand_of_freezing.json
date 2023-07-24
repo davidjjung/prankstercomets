@@ -1,0 +1,17 @@
+{
+  "type": "create_enchantment_industry:disenchanting",
+  "ingredients": [
+    {
+      "item": "savage_and_ravage:wand_of_freezing"
+    }
+  ],
+  "results": [
+    {
+      "item": "immersive_weathering:icicle"
+    },
+    {
+      "fluid": "create_enchantment_industry:experience",
+      "amount": 250
+    }
+  ]
+}

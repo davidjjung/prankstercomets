@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "TRCCC",
+    "PS   "
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:tripwire_hook"
+    },
+    "R": {
+      "item": "create:precision_mechanism"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "C": {
+      "item": "create:chute"
+    }
+  },
+  "result": {
+    "item": "boomshot:boomshot"
+  },
+  "acceptMirrored": true
+}

@@ -1,0 +1,13 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "architects_palette:rotten_flesh_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "architects_palette:entrails"
+    }
+  ]
+}

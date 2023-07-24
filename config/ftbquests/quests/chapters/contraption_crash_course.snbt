@@ -1,0 +1,226 @@
+{
+	id: "7A0696A4A3C8FB55"
+	group: "306F027EF23760DF"
+	order_index: 2
+	filename: "contraption_crash_course"
+	title: "Contraption Tutorial"
+	icon: "habitat:pink_ball_cactus_flower"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Overview"
+			x: -2.1d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"Welcome to the Contraption Crash Course! Although automation isn't a huge focus in this pack, there are some mechanics that require machinery that you may not want to miss out on."
+				""
+				"You can ponder any of the items you see along the way in order to gain a better understanding of how they work. Good luck!"
+				""
+				"Note: this guide basically serves as a condensed version of the \"This is Create\" tab in the advancements section. If you prefer a more step-by-step approach, following along there may prove more useful."
+			]
+			dependencies: ["44F6B6C54830F8FB"]
+			hide: true
+			size: 1.4d
+			id: "28ED81DFC55BEC36"
+			tasks: [{
+				id: "30160C3D9B65D8DD"
+				type: "item"
+				item: "create:brass_hand"
+			}]
+			rewards: [{
+				id: "14D69D62CBD9BA8F"
+				type: "item"
+				item: "create:wrench"
+			}]
+		}
+		{
+			title: "Energy Basics"
+			x: 0.5d
+			y: -0.5d
+			shape: "square"
+			description: [
+				"A little power goes a long way! Blocks like water wheels qualify as power generators, and create rotational force through gravity."
+				""
+				"Pondering other \"Kinetic Sources\" should give you an overview of other sources of rotational force."
+			]
+			dependencies: ["28ED81DFC55BEC36"]
+			id: "66678700FC85AFF6"
+			tasks: [
+				{
+					id: "553E43C2CDE2885D"
+					type: "item"
+					item: "create:water_wheel"
+				}
+				{
+					id: "07DEFF4AF5390E2E"
+					type: "advancement"
+					title: "Generate kinetic force with a water wheel"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "ftblibrary:textures/icons/refresh.png"
+						}
+					}
+					advancement: "create:water_wheel"
+					criterion: ""
+				}
+			]
+			rewards: [{
+				id: "6275D98476693307"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 4
+			}]
+		}
+		{
+			title: "Turning the Wheel Sideways"
+			x: 2.5d
+			y: 1.0d
+			subtitle: "Small, big, small, argh"
+			description: [
+				"Once you have access to The Force(tm), use shafts and cog wheels of various sizes in order to manipulate the speed at which your contraptions will operate."
+				""
+				"Intuiting orientation, speed, and other elements may take a bit of time, but all can be accomplished with enough methodical poking around. You got this!"
+			]
+			dependencies: ["66678700FC85AFF6"]
+			id: "57870FDEF7A1C926"
+			tasks: [
+				{
+					id: "3A0540C0F7198B19"
+					type: "item"
+					item: "create:cogwheel"
+					count: 8L
+				}
+				{
+					id: "00B8F25427938359"
+					type: "item"
+					item: "create:large_cogwheel"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "1BD486486E33387B"
+				type: "item"
+				title: "I wheel-y believe in you"
+				item: "brewinandchewin:flaxen_cheese_wheel"
+			}]
+		}
+		{
+			icon: "create:goggles"
+			x: 0.5d
+			y: -2.0d
+			description: [
+				"While pondering a scene, checking the magnifying glass icon in the bottom left will let you inspect any block present in said scene."
+				""
+				"This can be helpful for identifying and clarifying the purposes of contraption components like linear chassis, funnels, and more."
+			]
+			hide_dependency_lines: true
+			dependencies: ["28ED81DFC55BEC36"]
+			id: "4E075BB0B769C51D"
+			tasks: [{
+				id: "19C2B79338F6B6DB"
+				type: "checkmark"
+				title: "Pondering Tip"
+			}]
+		}
+		{
+			title: "New Crafting Stations"
+			icon: "create:whisk"
+			x: 4.5d
+			y: 0.0d
+			description: ["Once a reasonable speed is achieved, you can attach components like mechanical mixers and presses in order to start creating more specific items."]
+			dependencies: ["57870FDEF7A1C926"]
+			id: "4A8BA3CF18636F76"
+			tasks: [{
+				id: "0C03EE350895F274"
+				type: "item"
+				item: "minecraft:compass"
+			}]
+		}
+		{
+			title: "We Are Farmers"
+			x: 6.0d
+			y: -1.5d
+			subtitle: "Rumpapumpapumpumpum"
+			description: [
+				"One of the main appeals of using contraptions is for the automatic gathering of certain resources."
+				""
+				"Try pondering the \"Contraption Actors\" to see how you can start inventing your own setups for certain farms."
+			]
+			dependencies: ["4A8BA3CF18636F76"]
+			dependency_requirement: "one_completed"
+			id: "1E39DB2D389EEA3F"
+			tasks: [{
+				id: "2352507B946FCEAE"
+				type: "advancement"
+				title: "Make a contraption with some saws, drills, or harvesters on board"
+				advancement: "create:contraption_actors"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Decluttering Tip"
+			icon: "create:gearbox"
+			x: 2.5d
+			y: 2.5d
+			description: ["Gearboxes, encased chain drives, and gearshifts can all be helpful blocks to reduce cog wheel clutter. Ponder the \"Kinetic Blocks\" section to find out how each of these can lend a hand!"]
+			hide_dependency_lines: true
+			dependencies: ["66678700FC85AFF6"]
+			id: "250B503B9EE8B021"
+			tasks: [{
+				id: "18237B221B8AF602"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			id: "0644FA5932AF88C2"
+			tasks: [{
+				id: "0CC1F7C6C2E34700"
+				type: "item"
+				item: "create:deployer"
+			}]
+		}
+		{
+			title: "Down the Belt"
+			icon: "create:belt_connector"
+			x: 6.0d
+			y: 1.5d
+			description: [
+				"With mechanical belts, you can slowly chain together certain processes in order to start creating assembly lines."
+				""
+				"They're compatible with the blocks you'll find in the \"Kinetic Appliances\" pondering tab, though it should be noted that they may not work in just a straight line (such as anything that needs a basin)."
+				""
+				"If you ever find yourself lacking in power, remember that water wheels aren't your only option :)"
+			]
+			dependencies: ["4A8BA3CF18636F76"]
+			id: "62DFF1002A977A28"
+			tasks: [{
+				id: "244E05ED8652C4E8"
+				type: "advancement"
+				title: "Splash, smoke, or smelt an item using a powered encased fan"
+				advancement: "create:fan_processing"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Arc de Triomphe"
+			x: 6.0d
+			y: 3.0d
+			description: ["Weighted ejectors can launch mobs, players, and items to basically wherever you'd like, provided with enough rotational force. I wonder how one might take advantage of this...?"]
+			hide_dependency_lines: true
+			dependencies: ["62DFF1002A977A28"]
+			id: "047989ABE9740431"
+			tasks: [{
+				id: "4BA87CEEF2F65802"
+				type: "item"
+				item: "create:weighted_ejector"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

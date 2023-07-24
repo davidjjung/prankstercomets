@@ -1,0 +1,12 @@
+{
+  "type": "architects_palette:warping",
+  "ingredient": [
+    {
+      "item": "etched:radio"
+    }
+  ],
+  "result": {
+    "item": "etched:portal_radio"
+  },
+  "dimension": "undergarden:undergarden"
+}

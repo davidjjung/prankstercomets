@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:nether_forest_vegetation",
+  "config": {
+    "state_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 2,
+          "data": {
+            "Name": "nethersdelight:mimicarnation"
+          }
+        },
+        {
+          "weight": 7,
+          "data": {
+            "Name": "environmental:white_lotus_flower"
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:blue_orchid"
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:fern"
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:grass"
+          }
+        },
+        {
+          "weight": 50,
+          "data": {
+            "Name": "minecraft:cornflower"
+          }
+        }
+      ]
+    },
+    "spread_width": 7,
+    "spread_height": 4
+  }
+}

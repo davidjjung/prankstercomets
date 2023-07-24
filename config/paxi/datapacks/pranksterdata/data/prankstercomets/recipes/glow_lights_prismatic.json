@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": [
+      {
+        "item": "snowyspirit:glow_lights_red"
+      },
+      {
+        "item": "snowyspirit:glow_lights_orange"
+      },
+      {
+        "item": "snowyspirit:glow_lights_yellow"
+      },
+      {
+        "item": "snowyspirit:glow_lights_lime"
+      },
+      {
+        "item": "snowyspirit:glow_lights_green"
+      },
+      {
+        "item": "snowyspirit:glow_lights_cyan"
+      },
+      {
+        "item": "snowyspirit:glow_lights_blue"
+      },
+      {
+        "item": "snowyspirit:glow_lights_purple"
+      },
+      {
+        "item": "snowyspirit:glow_lights_black"
+      },
+      {
+        "item": "snowyspirit:glow_lights_white"
+      },
+      {
+        "item": "snowyspirit:glow_lights_light_gray"
+      },
+      {
+        "item": "snowyspirit:glow_lights_gray"
+      },
+      {
+        "item": "snowyspirit:glow_lights_pink"
+      },
+      {
+        "item": "snowyspirit:glow_lights_light_blue"
+      },
+      {
+        "item": "snowyspirit:glow_lights_magenta"
+      },
+      {
+        "item": "snowyspirit:glow_lights_brown"
+      }
+    ],
+    "B": {
+      "item": "alexsmobs:rainbow_jelly"
+    }
+  },
+  "result": {
+    "item": "snowyspirit:glow_lights_prismatic",
+    "count": 8
+  }
+}

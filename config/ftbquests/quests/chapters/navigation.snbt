@@ -1,0 +1,281 @@
+{
+	id: "49E7C8890805D062"
+	group: "1629A32369B336AD"
+	order_index: 1
+	filename: "navigation"
+	title: "Wayfinding"
+	icon: "supplementaries:globe"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "A World in Sepia"
+			icon: "ecologics:walnut_sapling"
+			x: -2.0d
+			y: 2.0d
+			description: [
+				"Legend tells of ever-expanding maps that would project one's explored world on paper..."
+				""
+				"Once obtained, you can add markers to indicate special locations."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"72776AB23FC635E9"
+				"1EF73BDE6FE8DB3E"
+			]
+			hide: true
+			id: "50C8C63F20B19925"
+			tasks: [{
+				id: "19F9AA44220E8D69"
+				type: "item"
+				item: "supplementaries:antique_ink"
+			}]
+		}
+		{
+			title: "Overview"
+			icon: "supplementaries:globe"
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "F3 can't save you now."
+			description: ["Getting a lay of the land is often key to finding and infiltrating other pranksters' bases. Here, we've detailed a few ways to keep track of the wider world and your place in it."]
+			size: 1.4d
+			id: "7C9E0DD6798DED8C"
+			tasks: [{
+				id: "7A889CE38868236B"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "344418617BCC7AC7"
+				type: "item"
+				item: "minecraft:map"
+			}]
+		}
+		{
+			title: "\"What is this Place?\""
+			x: -1.5d
+			y: 0.0d
+			description: [
+				"Ah, the compass; a classic way to tell the time, if time was space."
+				""
+				"Fun fact: if you're not in the Overworld, a compass will point to the last portal you entered."
+			]
+			dependencies: ["7C9E0DD6798DED8C"]
+			id: "1EF73BDE6FE8DB3E"
+			tasks: [{
+				id: "05473814B71C6AFE"
+				type: "item"
+				item: "minecraft:compass"
+			}]
+		}
+		{
+			title: "20k Leagues Under the Sea"
+			x: 0.0d
+			y: 1.5d
+			description: ["Worried you're in a little too deep? Check how in over your head you are with a handy-dandy depth meter."]
+			dependencies: ["7C9E0DD6798DED8C"]
+			id: "72776AB23FC635E9"
+			tasks: [{
+				id: "27ED10ECA16CDEFF"
+				type: "item"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "depthmeter:textures/item/depth_cave.png"
+					}
+				}
+				item: {
+					id: "depthmeter:depthmeter"
+					Count: 1b
+					ForgeCaps: {
+						"depthmeter:depth": {
+							depth: 0.0f
+							pos_sea_level: 0
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Wind in Our Sails"
+			x: 0.0d
+			y: -1.5d
+			description: [
+				"With the gust gauge, you can tell which way the wind is blowing on a given day at any altitude."
+				""
+				"If you're in a vessel subject to the whims of the sky, note that maintaining your altitude maintains your direction."
+			]
+			dependencies: ["7C9E0DD6798DED8C"]
+			id: "4C6370D56C33548E"
+			tasks: [{
+				id: "6E560E2C5089EDA1"
+				type: "item"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "breezy:textures/item/gust_gauge_16.png"
+					}
+				}
+				item: "breezy:gust_gauge"
+			}]
+		}
+		{
+			title: "Where Are You? [Innocent]"
+			icon: "undergarden:wigglewood_sapling"
+			x: -2.0d
+			y: -2.0d
+			description: [
+				"Lost track of your buddy, or vice versa? Not to fret; using the power of friendship (and a bird's vital organs), you can instantly discern the whereabouts of your friends."
+				""
+				"Note: both you and your companion need to be holding one for the connection to visually manifest."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"4C6370D56C33548E"
+				"1EF73BDE6FE8DB3E"
+			]
+			hide: true
+			id: "7C6F886F2E120565"
+			tasks: [{
+				id: "1B3B5885A72BDFDE"
+				type: "item"
+				item: "create:rose_quartz"
+			}]
+		}
+		{
+			title: "Where Are You? [Scheming]"
+			icon: "architects_palette:twisted_sapling"
+			x: 2.0d
+			y: 2.0d
+			description: ["Legend tells of"]
+			hide_dependency_lines: true
+			dependencies: [
+				"334A55706FD63E3E"
+				"4C6370D56C33548E"
+			]
+			hide: true
+			id: "636B3DDC90507801"
+			tasks: [{
+				id: "2309C1CF38B4DC6C"
+				type: "item"
+				item: "playertrackingcompass:tracking_compass"
+			}]
+		}
+		{
+			title: "Six Feet Under"
+			x: 1.5d
+			y: 0.0d
+			description: ["Scrambling for post-death clarity? Not to worry; the soul compass will point you towards the location of your last death."]
+			dependencies: ["7C9E0DD6798DED8C"]
+			id: "334A55706FD63E3E"
+			tasks: [{
+				id: "5CCE58BB864EC674"
+				type: "item"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "quark:textures/item/soul_compass_16.png"
+					}
+				}
+				item: "quark:soul_compass"
+			}]
+		}
+		{
+			title: "A World of Color"
+			icon: "minecraft:dark_oak_sapling"
+			x: 2.0d
+			y: -2.0d
+			description: [
+				"Leave a compass to rot and what do you get? A handy tool for finding all the biomes you could ever need."
+				""
+				"You can harvest pond water from silty blocks when it rains. Don't sniff it, and most certainly do not taste it."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"334A55706FD63E3E"
+				"72776AB23FC635E9"
+			]
+			hide: true
+			id: "2EAA53481B0E20AF"
+			tasks: [{
+				id: "57F1626CB131012E"
+				type: "item"
+				item: "immersive_weathering:pond_water"
+			}]
+		}
+		{
+			title: "Vantage Point"
+			x: 0.0d
+			y: -3.5d
+			description: ["You can briefly ride giraffes after coaxing them with an apple. Opening a map during that time will fill it out much faster!"]
+			dependencies: ["4C6370D56C33548E"]
+			hide: true
+			invisible: true
+			id: "72B74546C3076410"
+			tasks: [{
+				id: "29F07330D718C1CC"
+				type: "observation"
+				title: "Observe a Giraffe"
+				icon: "minecraft:acacia_sapling"
+				timer: 0L
+				observe_type: 5
+				to_observe: "naturalist:giraffe"
+			}]
+		}
+		{
+			title: "Woolen Waypoints"
+			icon: "undergarden:grongle_sapling"
+			x: 0.0d
+			y: 3.5d
+			description: ["Using a map on a named banner will automatically place it on your map. You can then place a map in an item frame to slowly build up a cohesive image of the world around you."]
+			dependencies: ["72776AB23FC635E9"]
+			hide: true
+			id: "03014241291174C5"
+			tasks: [{
+				id: "6E2C3BD9376A62F3"
+				type: "item"
+				title: "Any #minecraft:banners"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:banners"
+					}
+				}
+			}]
+		}
+		{
+			title: "Thread the Needle"
+			icon: "undergarden:smogstem_sapling"
+			x: -3.5d
+			y: 0.0d
+			description: ["Although compasses usually point towards world spawn, using one on a lodestone will calibrate it to point towards the block instead."]
+			dependencies: ["1EF73BDE6FE8DB3E"]
+			hide: true
+			id: "287AB363FFF93A2F"
+			tasks: [{
+				id: "1873F9534D6C3444"
+				type: "item"
+				item: "minecraft:lodestone"
+			}]
+		}
+		{
+			icon: "minecraft:crimson_fungus"
+			x: 3.5d
+			y: 0.0d
+			description: ["Soul bead easy way to find Nether Fortress. Drop from gost."]
+			dependencies: ["334A55706FD63E3E"]
+			hide: true
+			id: "7EBD7F64601F64AA"
+			tasks: [{
+				id: "056B1CD17C1E2548"
+				type: "item"
+				item: "quark:soul_bead"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

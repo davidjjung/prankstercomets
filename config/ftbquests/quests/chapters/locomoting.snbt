@@ -1,0 +1,214 @@
+{
+	id: "62AC32536893DE68"
+	group: "1629A32369B336AD"
+	order_index: 2
+	filename: "locomoting"
+	title: "Locomoting"
+	icon: "artifacts:running_shoes"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Overview"
+			icon: "artifacts:running_shoes"
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "Long ago, the four elements lived in harmony..."
+			description: ["And that hasn't changed. Listed above, around, and below are a few ways for you to harness moving through these elements with haste!"]
+			size: 1.4d
+			id: "0D21681031BDA21D"
+			tasks: [{
+				id: "49EC6D404F8FED35"
+				type: "checkmark"
+				title: "Overview"
+			}]
+		}
+		{
+			title: "Air I"
+			x: 0.0d
+			y: -1.5d
+			subtitle: "Up, up, and away"
+			description: ["With a flint and steel, breezy travels are just a flick away. Control your ascent and descent with sand and shears."]
+			id: "13482E1C9BD9EE75"
+			tasks: [{
+				id: "5B4F96FFF519E8CE"
+				type: "item"
+				item: "minecraft:white_wool"
+				count: 2L
+			}]
+			rewards: [{
+				id: "58D091A68828816A"
+				type: "item"
+				item: "farmersdelight:rope"
+				count: 2
+			}]
+		}
+		{
+			title: "Fire I"
+			x: -1.5d
+			y: 0.0d
+			description: ["Saddle up, and waddle placidly across seas where water dare not show its face."]
+			id: "0A6C5A1C5742CC74"
+			tasks: [{
+				id: "023B4A1AF8149409"
+				type: "item"
+				item: {
+					id: "minecraft:warped_fungus_on_a_stick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			description: [
+				"The paraglider is a relatively cheap way to glide through the skies. Strong sources of heat will provide updrafts that you can use to stay afloat."
+				""
+				"Watch their durability closely, though!"
+			]
+			id: "0D7BE70A2AFB313D"
+			tasks: [{
+				id: "2887531D9235B765"
+				type: "item"
+				item: {
+					id: "paraglider:paraglider"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Sledding"
+			x: 1.5d
+			y: 1.5d
+			description: ["Take to the snow with your sick wooden treads. These vehicles are capable of traversing frozen landscapes in style, and can carry chests to boot."]
+			id: "6C9C871E13D1D404"
+			tasks: [{
+				id: "47D9671900F2643C"
+				type: "item"
+				title: "Any #snowyspirit:sleds"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "snowyspirit:sleds"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			id: "3D14BB9D921D13FF"
+			tasks: [{
+				id: "2F50A53B9E7C017C"
+				type: "item"
+				item: "alexsmobs:straddle_saddle"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			id: "5D23334A43BABF97"
+			tasks: [{
+				id: "593EF91150A65053"
+				type: "item"
+				item: {
+					id: "alexsmobs:straddleboard"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Earth I"
+			x: 0.0d
+			y: 1.5d
+			id: "41F690243E1C22C7"
+			tasks: [{
+				id: "5C5487385F5ED88F"
+				type: "item"
+				item: "minecraft:leather_horse_armor"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			id: "1B5C84DCCF659D18"
+			tasks: [{
+				id: "6C31FE7A8D5AE70F"
+				type: "item"
+				item: "artifacts:flippers"
+			}]
+		}
+		{
+			title: "Water I"
+			x: 1.5d
+			y: 0.0d
+			id: "66C803C5AFD018F2"
+			tasks: [{
+				id: "21210471AB26BEC7"
+				type: "observation"
+				title: "Swim with the Dolphins"
+				icon: "minecraft:dolphin_spawn_egg"
+				timer: 0L
+				observe_type: 5
+				to_observe: "minecraft:dolphin"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			id: "780029F01D19FFD2"
+			tasks: [{
+				id: "787E3F2419A95637"
+				type: "item"
+				item: {
+					id: "create_jetpack:jetpack"
+					Count: 1b
+					tag: {
+						Air: 900
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			id: "3F0E7F206F59A75B"
+			tasks: [{
+				id: "5A1F6ED621E7ACD5"
+				type: "item"
+				item: {
+					id: "create:copper_diving_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			id: "5D3AE46FF8E41DF7"
+			tasks: [{
+				id: "0B3712D614A75743"
+				type: "observation"
+				title: "Selkie Baby"
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:seal"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

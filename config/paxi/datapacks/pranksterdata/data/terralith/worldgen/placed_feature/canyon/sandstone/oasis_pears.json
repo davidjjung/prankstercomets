@@ -1,0 +1,19 @@
+{
+  "feature": "terralith:canyon/sandstone/oasis_pears",
+  "placement": [
+    {
+      "count": 256,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

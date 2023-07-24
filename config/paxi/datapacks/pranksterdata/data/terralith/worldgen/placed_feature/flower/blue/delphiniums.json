@@ -1,0 +1,16 @@
+{
+  "feature": "terralith:flower/blue/delphiniums",
+  "placement": [
+    {
+      "chance": 12,
+      "type": "minecraft:rarity_filter"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING",
+      "type": "minecraft:heightmap"
+    }
+  ]
+}

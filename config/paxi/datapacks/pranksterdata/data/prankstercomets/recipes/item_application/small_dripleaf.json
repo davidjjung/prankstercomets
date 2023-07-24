@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "minecraft:big_dripleaf"
+    },
+    {
+      "tag": "forge:shears"
+    }
+  ],
+  "results": [
+    {
+      "item": "habitat:fairy_ring_mushroom_trapdoor"
+    }
+  ]
+}

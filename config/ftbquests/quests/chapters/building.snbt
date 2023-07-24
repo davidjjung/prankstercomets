@@ -1,0 +1,321 @@
+{
+	id: "40E773789C0DFC08"
+	group: "1629A32369B336AD"
+	order_index: 0
+	filename: "building"
+	title: "Building"
+	icon: "quark:abacus"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "The Accountant's Best Friend"
+			icon: "minecraft:birch_door"
+			x: -1.0d
+			y: 2.0d
+			description: ["There exists a refined implement--essentially, pebbles impaled on a stick--which can precisely measure the distance between blocks."]
+			id: "4AED5C489F77E16B"
+			tasks: [{
+				id: "4F5A4D225E8BA51F"
+				type: "item"
+				item: "twigs:pebble"
+			}]
+		}
+		{
+			title: "Overview"
+			icon: "minecraft:bricks"
+			x: 0.0d
+			y: 3.5d
+			shape: "square"
+			description: [
+				"Here, we've detailed a number of ways for a prospective builder to aid the creative process."
+				""
+				"This can include info on helpful construction blocks and tools, as well as guides on more abstract building mechanics."
+			]
+			size: 1.4d
+			id: "1AFE2E47F30A53BD"
+			tasks: [{
+				id: "0B35580F77551547"
+				type: "checkmark"
+				title: "Yeah"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			description: [
+				"Building blocks now have a tooltip stating if they have variants that use the same textures, such as slabs or stairs."
+				""
+				"In addition, searching from a large list of keywords will bring up relevant materials for browsing purposes. Try looking up any of the jobs listed in \"Things to Do\", for example!"
+			]
+			id: "3EA3EFFD547240E3"
+			tasks: [{
+				id: "53FEDEFB04BCE3CB"
+				type: "checkmark"
+				title: "REI"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			description: [
+				"As detailed prior, you can access a wheel of building modes by holding Left Alt by default, and use your cursor to select your desired construction shape."
+				""
+				"With enough practice, you'll be able to create walls, floors, and more with speed unmatched!"
+			]
+			id: "3E5F08C4522CE191"
+			tasks: [{
+				id: "4584516DCDC0B4A0"
+				type: "checkmark"
+				title: "Effortless Building"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "0F3A20974F46CB5E"
+			tasks: [{
+				id: "6C291ECCF9A424E1"
+				type: "item"
+				item: {
+					id: "lightingwand:wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.5d
+			id: "582B764678105082"
+			tasks: [{
+				id: "34BC686C369B46D0"
+				type: "item"
+				item: "literalskyblock:sky_block"
+			}]
+		}
+		{
+			icon: "minecraft:spruce_door"
+			x: -1.0d
+			y: 1.0d
+			description: ["Using a trowel places blocks present in your hotbar, in random order."]
+			id: "5B249C059A673E8D"
+			tasks: [{
+				id: "6AE86BFF365F615B"
+				type: "item"
+				item: "quark:trowel"
+			}]
+		}
+		{
+			icon: "dustrial_decor:cardboard_door"
+			x: 1.0d
+			y: 2.0d
+			id: "35C25A1A23576CC7"
+			tasks: [{
+				id: "324A624AA49D5E64"
+				type: "item"
+				item: "create:wand_of_symmetry"
+			}]
+		}
+		{
+			title: "Schematics: A Guide"
+			x: -3.0d
+			y: 2.0d
+			description: [
+				"Schematics are a handy way to devise blueprints for structures in creative worlds that you then want to implement in survival. They can also be used to duplicate already-existing structures."
+				""
+				"Once you have a structure to schemat-ify, whip out your schematic and quill. R-Click (by default) twice to set the bounds, and R-Click again to seal the deal."
+				""
+				"Once saved, you can access this schematic across worlds."
+			]
+			id: "07CC9C3ABA6B82F1"
+			tasks: [{
+				id: "5C784E6EC263E46C"
+				type: "item"
+				item: "create:schematic_and_quill"
+			}]
+		}
+		{
+			title: "Tablesmith"
+			x: -3.0d
+			y: 0.5d
+			description: [
+				"Now you can put an empty schematic into a schematic table, set it to your desired nbt file, and then create a blueprint-to-be!"
+				""
+				"(You can mouse and scroll over the name of the nbt file in order to find your saved schematic of choice.)"
+			]
+			dependencies: ["07CC9C3ABA6B82F1"]
+			id: "26795C2A3D7F8762"
+			tasks: [{
+				id: "5E60E64E0CD6E3D1"
+				type: "item"
+				item: "create:schematic_table"
+			}]
+		}
+		{
+			title: "Thar She Blows"
+			x: -3.0d
+			y: -2.5d
+			description: [
+				"You can now place your schematic (which should be bound to a set of coordinates) in your schematicannon!"
+				""
+				"When fueled with gunpowder (and a chest of the needed blocks next to it), you can sit back and watch your structure build itself. No sweat! (Maybe a little sweat.)"
+				""
+				"Note: the schematicannon also does Not require rotational force to work properly."
+			]
+			dependencies: ["724CAC08D0294281"]
+			id: "6FDF4CF74B5DEA4A"
+			tasks: [{
+				id: "58035898ABB78388"
+				type: "item"
+				item: "create:schematicannon"
+			}]
+		}
+		{
+			title: "Setting the Scene"
+			icon: "create:schematic"
+			x: -3.0d
+			y: -1.0d
+			description: ["Now, you can R-Click with your Schematic to place a visualization of your structure within the world. There are many modes to adjust positioning and orientation as needed."]
+			dependencies: ["26795C2A3D7F8762"]
+			id: "724CAC08D0294281"
+			tasks: [{
+				id: "436C6F3D11AD3FA6"
+				type: "checkmark"
+				title: "Lotsa keybinds coming your way"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			description: ["Struggling with inventing your own architectural aesthetic on the spot? No worries; try making a schematic according to pre-determined styles (bound to \"G\" by default)."]
+			id: "6DE7A69A590C7D9F"
+			tasks: [{
+				id: "2D034475A337EC69"
+				type: "checkmark"
+				title: "Template-Based Construction"
+			}]
+		}
+		{
+			title: "Handable Mandible"
+			icon: "undergarden:wigglewood_door"
+			x: -1.0d
+			y: 0.0d
+			description: [
+				"There exists a block that allows you to remotely access any of eight different (stackable) items at once, from a distance. Very handy if you don't like micromanaging your hotbar."
+				""
+				"(And yes, the golden clasps are a necessity.)"
+			]
+			id: "2973285496AE5E54"
+			tasks: [{
+				id: "06C3B9B8A582A616"
+				type: "item"
+				title: "Any wooden chest"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:chests/wooden"
+					}
+				}
+			}]
+		}
+		{
+			title: "Plastic Man"
+			x: 1.0d
+			y: 1.0d
+			description: ["There exists a tool that can greatly extend your reach when using items. Useful in many ways, including making walls just a little taller without having to build your own temporary stepping stool."]
+			id: "493FA0C779D4E455"
+			tasks: [{
+				id: "15CCB863CD9A3228"
+				type: "item"
+				item: "create:brass_hand"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.5d
+			id: "7E309ABCDEAB8385"
+			tasks: [{
+				id: "235501A8525D97DB"
+				type: "item"
+				item: "create:copycat_panel"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			id: "7E8C962684919CA4"
+			tasks: [{
+				id: "77BF7E6763A2A479"
+				type: "item"
+				item: {
+					id: "supplementaries:bubble_blower"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			id: "5FE0DAA153D889CA"
+			tasks: [{
+				id: "7C0967A7C5E50CDA"
+				type: "item"
+				item: "quark:bottled_cloud"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			id: "243506CED490C6A0"
+			tasks: [{
+				id: "1130EF9242108EEF"
+				type: "item"
+				item: "quark:glass_item_frame"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.5d
+			id: "422B27C93827B44B"
+			tasks: [{
+				id: "7F607DFE30A1FBAA"
+				type: "item"
+				item: "brewinandchewin:tankard"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			id: "5AF54D9DF4C70929"
+			tasks: [{
+				id: "61EDA20925875283"
+				type: "item"
+				item: "create:mechanical_roller"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "4D6709BD6111318F"
+			tasks: [{
+				id: "0D8CC2B453925220"
+				type: "item"
+				item: {
+					id: "supplementaries:wrench"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

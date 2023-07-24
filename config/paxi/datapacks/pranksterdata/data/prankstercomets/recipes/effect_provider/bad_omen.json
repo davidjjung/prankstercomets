@@ -1,0 +1,14 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "minecraft:bad_omen"
+  },
+  "providers": [
+    {
+      "item": "minecraft:pillager_spawn_egg"
+    },
+    {
+      "item": "brewinandchewin:dread_nog"
+    }
+  ]
+}

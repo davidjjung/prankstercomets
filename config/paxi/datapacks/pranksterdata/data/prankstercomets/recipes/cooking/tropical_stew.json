@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "ecologics:crab_meat"
+    },
+    {
+      "tag": "forge:milk"
+    }
+  ],
+  "result": {
+    "item": "ecologics:tropical_stew"
+  },
+  "container": {
+    "item": "ecologics:coconut_slice"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

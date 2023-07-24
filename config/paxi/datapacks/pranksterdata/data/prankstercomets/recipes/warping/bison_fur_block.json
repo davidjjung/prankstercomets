@@ -1,0 +1,12 @@
+{
+  "type": "architects_palette:warping",
+  "ingredient": [
+    {
+      "item": "snuffles:snuffle_fluff"
+    }
+  ],
+  "result": {
+    "item": "alexsmobs:bison_fur_block"
+  },
+  "dimension": "undergarden:undergarden"
+}

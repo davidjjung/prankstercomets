@@ -1,0 +1,25 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "create:golden_sheet"
+    },
+    {
+      "item": "create:golden_sheet"
+    },
+    {
+      "item": "savage_and_ravage:creeper_spores"
+    },
+    {
+      "item": "savage_and_ravage:creeper_spores"
+    },
+    {
+      "item": "savage_and_ravage:creeper_spores"
+    }
+  ],
+  "results": [
+    {
+      "item": "savage_and_ravage:blast_proof_plating"
+    }
+  ]
+}

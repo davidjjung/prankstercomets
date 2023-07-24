@@ -1,0 +1,26 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "ingredients": [
+    {
+      "tag": "minecraft:saplings"
+    },
+    {
+      "tag": "forge:mushrooms"
+    },
+    {
+      "item": "immersive_weathering:moss_clump"
+    },
+    {
+      "item": "minecraft:compass"
+    }
+  ],
+  "result": {
+    "item": "naturescompass:naturescompass"
+  },
+  "liquid": {
+    "item": "immersive_weathering:pond_water"
+  },
+  "experience": 2.5,
+  "cookingtime": 36000,
+  "temperature": 3
+}

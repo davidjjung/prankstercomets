@@ -1,0 +1,42 @@
+{
+	id: "4FC1FEE686F8B0A3"
+	group: "089861E436C56AD5"
+	order_index: 0
+	filename: "combat"
+	title: "Combat"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Pocket Sand"
+			x: 3.0d
+			y: 0.5d
+			id: "4976827A9C578CBB"
+			tasks: [{
+				id: "6AF4FE3C79DDBB4B"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Pocket. Axe."
+			x: 4.5d
+			y: 0.5d
+			id: "26418E5FC52B42C1"
+			tasks: [{
+				id: "70AD15EF84BCEBC8"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Pocket... Bricks?"
+			x: 4.0d
+			y: 1.5d
+			id: "26154422EBECA51C"
+			tasks: [{
+				id: "758C195EEFED87EF"
+				type: "checkmark"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

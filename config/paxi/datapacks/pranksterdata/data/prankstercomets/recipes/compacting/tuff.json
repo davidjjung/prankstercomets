@@ -1,0 +1,22 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "immersive_weathering:ash_block"
+    },
+    {
+      "item": "immersive_weathering:ash_block"
+    },
+    {
+      "item": "immersive_weathering:ash_block"
+    },
+    {
+      "item": "immersive_weathering:ash_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:tuff"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:mushroom_stew",
+    "minecraft:suspicious_stew",
+    "farmersdelight:nether_salad",
+    "farmersdelight:brown_mushroom_colony",
+    "farmersdelight:red_mushroom_colony",
+    "nethersdelight:crimson_fungus_colony",
+    "nethersdelight:warped_fungus_colony"
+  ]
+}

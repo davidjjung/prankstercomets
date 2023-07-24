@@ -1,0 +1,12 @@
+{
+  "type": "architects_palette:warping",
+  "ingredient": [
+    {
+      "item": "minecraft:dripstone_block"
+    }
+  ],
+  "result": {
+    "item": "atmospheric:ivory_travertine"
+  },
+  "dimension": "undergarden:undergarden"
+}

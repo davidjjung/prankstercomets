@@ -1,0 +1,17 @@
+{
+  "values": [
+    "minecraft:cod",
+    "minecraft:salmon",
+    "minecraft:tropical_fish",
+    "minecraft:dolphin",
+    "minecraft:axolotl",
+    "upgrade_aquatic:perch",
+    "upgrade_aquatic:pike",
+    "upgrade_aquatic:nautilus",
+    "alexsmobs:blobfish",
+    "alexsmobs:catfish",
+    "alexsmobs:seal",
+    "ecologics:penguin",
+    "#upgrade_aquatic:jellyfish"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "config": {
+    "to_place": {
+      "entries": [
+        {
+          "data": {
+            "Properties": {
+              "age": "2"
+            },
+            "Name": "ecologics:prickly_pear"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "Properties": {
+              "age": "3"
+            },
+            "Name": "ecologics:prickly_pear"
+          },
+          "weight": 4
+        }
+      ],
+      "type": "minecraft:weighted_state_provider"
+    }
+  },
+  "type": "minecraft:simple_block"
+}

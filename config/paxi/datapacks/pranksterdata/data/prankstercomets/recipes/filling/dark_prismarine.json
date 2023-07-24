@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:prismarine"
+    },
+    {
+      "fluid": "create_enchantment_industry:ink",
+      "amount": 125
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:dark_prismarine"
+    }
+  ]
+}

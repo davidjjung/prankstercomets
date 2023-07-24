@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "IXI",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "prankstercomets:mud_bricks"
+    },
+    "X": {
+      "item": "minecraft:furnace"
+    },
+    "I": {
+      "tag": "minecraft:stone_crafting_materials"
+    }
+  },
+  "result": {
+    "item": "minecraft:blast_furnace"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "architects_palette:warping",
+  "ingredient": [
+    {
+      "item": "minecraft:quartz"
+    }
+  ],
+  "result": {
+    "item": "minecraft:amethyst_shard"
+  },
+  "dimension": "minecraft:the_end"
+}

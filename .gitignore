@@ -45,3 +45,6 @@ emojiful/
 blueprint-online-image-cache/
 .idea/
 crash-reports/
+config/blockswap/known_states/
+config/biometweaker/
+config/quark_emotes

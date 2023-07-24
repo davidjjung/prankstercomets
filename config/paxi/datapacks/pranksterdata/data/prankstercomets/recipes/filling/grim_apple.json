@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "hauntedharvest:rotten_apple"
+    },
+    {
+      "fluid": "undergarden:virulent_mix_source",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "hauntedharvest:grim_apple"
+    }
+  ]
+}

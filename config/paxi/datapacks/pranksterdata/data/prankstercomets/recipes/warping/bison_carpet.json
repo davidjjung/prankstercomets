@@ -1,0 +1,12 @@
+{
+  "type": "architects_palette:warping",
+  "ingredient": [
+    {
+      "item": "snuffles:snuffle_fluff_carpet"
+    }
+  ],
+  "result": {
+    "item": "alexsmobs:bison_carpet"
+  },
+  "dimension": "undergarden:undergarden"
+}

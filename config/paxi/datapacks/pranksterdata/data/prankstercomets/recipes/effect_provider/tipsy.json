@@ -1,0 +1,56 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "brewinandchewin:tipsy"
+  },
+  "providers": [
+    {
+      "item": "brewinandchewin:beer"
+    },
+    {
+      "item": "brewinandchewin:vodka"
+    },
+    {
+      "item": "brewinandchewin:mead"
+    },
+    {
+      "item": "brewinandchewin:rice_wine"
+    },
+    {
+      "item": "brewinandchewin:egg_grog"
+    },
+    {
+      "item": "brewinandchewin:strongroot_ale"
+    },
+    {
+      "item": "brewinandchewin:saccharine_rum"
+    },
+    {
+      "item": "brewinandchewin:pale_jane"
+    },
+    {
+      "item": "brewinandchewin:dread_nog"
+    },
+    {
+      "item": "brewinandchewin:salty_folly"
+    },
+    {
+      "item": "brewinandchewin:steel_toe_stout"
+    },
+    {
+      "item": "brewinandchewin:glittering_grenadine"
+    },
+    {
+      "item": "brewinandchewin:bloody_mary"
+    },
+    {
+      "item": "brewinandchewin:red_rum"
+    },
+    {
+      "item": "brewinandchewin:withering_dross"
+    },
+    {
+      "item": "brewinandchewin:kombucha"
+    }
+  ]
+}

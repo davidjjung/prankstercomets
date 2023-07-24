@@ -1,0 +1,12 @@
+{
+  "type": "architects_palette:warping",
+  "ingredient": [
+    {
+      "item": "galosphere:lumiere_shard"
+    }
+  ],
+  "result": {
+    "item": "galosphere:allurite_shard"
+  },
+  "dimension": "undergarden:undergarden"
+}

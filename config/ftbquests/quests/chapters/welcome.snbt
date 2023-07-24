@@ -1,0 +1,164 @@
+{
+	id: "2EAFE13E291F266F"
+	group: ""
+	order_index: 0
+	filename: "welcome"
+	title: "Welcome!"
+	icon: "newworld:fir_sapling"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Welcome!"
+			icon: "habitat:orange_ball_cactus_flower"
+			x: -3.4d
+			y: -0.85d
+			shape: "rsquare"
+			description: ["Hello! Whether you're here to wreak havoc or to watch said havoc with a bucket of popcorn, this is the place for you. Thanks for giving this modpack a try!"]
+			size: 1.7d
+			id: "0FFD1F8CE005DAFC"
+			tasks: [{
+				id: "750AA42573A66E39"
+				type: "checkmark"
+				title: "Neat, a cookie"
+			}]
+			rewards: [{
+				id: "62582BCD6EC650A9"
+				type: "item"
+				item: "farmersdelight:honey_cookie"
+			}]
+		}
+		{
+			title: "Comet Medals"
+			x: 1.5d
+			y: 0.5d
+			subtitle: "What are they?"
+			description: [
+				"The currency du jour. Audacity's reward and prankster's boon."
+				""
+				"Medals can be used to gather information or cool trinkets. They may have other uses too, but that's for us to know and for you to find out!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6787CAD8EAAD1CED"]
+			id: "22293A71CF7A28F2"
+			tasks: [{
+				id: "7A23166AA5D11EC4"
+				type: "checkmark"
+				title: "But what are they though"
+			}]
+		}
+		{
+			title: "Neutral Factions:"
+			x: 0.0d
+			y: 0.5d
+			description: [
+				"Will you be the protector of spawn? A wandering vagrant? A shady peddler of wares? Discover the world's secrets at your own pace, and play a part worth remembering."
+				""
+				"If you ever find yourself a bit aimless, feel free to check out the \"Things To Do\" tab!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6787CAD8EAAD1CED"]
+			id: "7656CFC1AFE4C442"
+			tasks: [{
+				id: "1DA7F78370AE0957"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Pranksters:"
+			x: -1.5d
+			y: 0.5d
+			subtitle: "[feverish gremlin noises]"
+			description: [
+				"Screw with other pranksters while defending yourself! :)"
+				""
+				"Make sure to leave no stone unturned in your obnoxious quest for infamy. Always assume there's more than what meets the eye..."
+			]
+			hide_dependency_lines: true
+			dependencies: ["6787CAD8EAAD1CED"]
+			id: "3EE6D322D92FFC7F"
+			tasks: [{
+				id: "563BDA0DDFF8C9BD"
+				type: "checkmark"
+				title: "Rejoice!"
+			}]
+		}
+		{
+			title: "Purpose I"
+			icon: "supplementaries:undergarden/sign_post_grongle"
+			x: -3.5d
+			y: 1.0d
+			subtitle: "Who is this for?"
+			description: [
+				"Prankster Comets is ideally for players who want to mess with others (pranksters), and players who want to simply mess around (neutral factions)."
+				""
+				"At its heart, the pack is a sandbox for shenanigans-based storytelling. Choose whichever gameplay structure you think will best fit!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["0FFD1F8CE005DAFC"]
+			size: 1.3d
+			id: "02159E7C0AB1FD48"
+			tasks: [{
+				id: "4A026E7AE751D902"
+				type: "checkmark"
+				title: "Wheaton's Law is subjective"
+			}]
+			rewards: [{
+				id: "705DD023E075B9E3"
+				type: "item"
+				item: "farmersrespite:green_tea_cookie"
+			}]
+		}
+		{
+			title: "Purpose II"
+			icon: "supplementaries:ecologics/sign_post_walnut"
+			x: -2.1d
+			y: 2.6d
+			subtitle: "Vanilla++×+..."
+			description: [
+				"The pack is meant to be a cohesive, integrated experience that focuses on building and player-driven discovery."
+				""
+				"Custom content will keep both veterans and new players on their toes, and quests are meant to give everybody similar access to information. You shouldn't have to use the Internet to get a leg up :)"
+			]
+			dependencies: ["02159E7C0AB1FD48"]
+			size: 1.3d
+			id: "6787CAD8EAAD1CED"
+			tasks: [{
+				id: "6FC5960AA4C8F31B"
+				type: "checkmark"
+				title: "So no rushing Botania? Oof"
+			}]
+			rewards: [{
+				id: "707509ACB996C3A8"
+				type: "item"
+				item: "farmersdelight:sweet_berry_cookie"
+			}]
+		}
+		{
+			title: "Purpose III"
+			icon: "supplementaries:undergarden/sign_post_smogstem"
+			x: -0.1499999999999999d
+			y: 2.6d
+			subtitle: "Wheaton's Law"
+			description: [
+				"One last note! All players should be familiar with one another's gameplay boundaries, for pranks and otherwise. Some ground rules are recommended, however loose they may be."
+				""
+				"All that said, it's off to the races. Take chances, make mistakes, and get messy!"
+			]
+			dependencies: ["6787CAD8EAAD1CED"]
+			size: 1.3d
+			id: "4358046729007487"
+			tasks: [{
+				id: "5C5632F89DE043C2"
+				type: "checkmark"
+				title: "Please let this be a normal field trip"
+			}]
+			rewards: [{
+				id: "0EF32401A3522225"
+				type: "item"
+				item: "abnormals_delight:mulberry_cookie"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

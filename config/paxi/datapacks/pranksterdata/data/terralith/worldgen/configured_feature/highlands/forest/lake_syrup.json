@@ -1,0 +1,23 @@
+{
+  "config": {
+    "fluid": {
+      "state": {
+        "Properties": {
+          "level": "0"
+        },
+        "Name": "create_central_kitchen:syrup"
+      },
+      "type": "minecraft:simple_state_provider"
+    },
+    "barrier": {
+      "state": {
+        "Properties": {
+          "weathering": "false"
+        },
+        "Name": "minecraft:snow_block"
+      },
+      "type": "minecraft:simple_state_provider"
+    }
+  },
+  "type": "minecraft:lake"
+}

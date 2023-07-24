@@ -1,0 +1,14 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "wildbackport:darkness"
+  },
+  "providers": [
+    {
+      "item": "wildbackport:warden_spawn_egg"
+    },
+    {
+      "item": "wildbackport:sculk_shrieker"
+    }
+  ]
+}

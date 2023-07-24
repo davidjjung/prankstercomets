@@ -1,0 +1,25 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "wildbackport:echo_shard"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "fluid": "minecraft:water",
+      "nbt": {},
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "architects_palette:wardstone_blend",
+      "count": 2
+    },
+    {
+      "item": "wildbackport:echo_shard"
+    }
+  ]
+}

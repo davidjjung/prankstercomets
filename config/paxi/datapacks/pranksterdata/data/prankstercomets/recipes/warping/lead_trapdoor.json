@@ -1,0 +1,12 @@
+{
+  "type": "architects_palette:warping",
+  "ingredient": [
+    {
+      "item": "supplementaries:silver_trapdoor"
+    }
+  ],
+  "result": {
+    "item": "supplementaries:lead_trapdoor"
+  },
+  "dimension": "undergarden:undergarden"
+}

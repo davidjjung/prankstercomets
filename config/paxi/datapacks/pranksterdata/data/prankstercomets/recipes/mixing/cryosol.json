@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "immersive_weathering:permafrost"
+    },
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "immersive_weathering:permafrost"
+    }
+  ],
+  "results": [
+    {
+      "item": "immersive_weathering:cryosol",
+      "count": 4
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "undergarden:blood_mushroom"
+    },
+    {
+      "item": "undergarden:blood_mushroom"
+    },
+    {
+      "item": "undergarden:blisterberry"
+    }
+  ],
+  "result": {
+    "item": "undergarden:bloody_stew"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

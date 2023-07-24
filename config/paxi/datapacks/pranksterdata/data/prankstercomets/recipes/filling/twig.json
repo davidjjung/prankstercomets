@@ -1,0 +1,21 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "fluid": "create:potion",
+      "nbt": {
+        "Bottle": "REGULAR",
+        "Potion": "minecraft:regeneration"
+      },
+      "amount": 25
+    }
+  ],
+  "results": [
+    {
+      "item": "twigs:twig"
+    }
+  ]
+}

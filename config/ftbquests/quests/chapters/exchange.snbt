@@ -1,0 +1,117 @@
+{
+	id: "21C20AAAB6DDDE05"
+	group: "387F0E6513CA7F71"
+	order_index: 1
+	filename: "exchange"
+	title: "Exchanging"
+	icon: {
+		id: "nomowanderer:no_mo_wanderer_totem"
+		Count: 1b
+		tag: {
+			Enabled: 1b
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Artifacts Shop"
+			icon: "rottencreatures:treasure_chest"
+			x: -3.0d
+			y: -1.0d
+			description: ["Step right up, step right up! For a few medals apiece, you too can take purchase of our wild wares. Take to the skies, plumb the depths of the ocean with ease, or enact foudroyant vengeance with our little trinkets!"]
+			id: "794485A2606B148C"
+			tasks: [{
+				id: "43F59E10E64A28C7"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			description: ["For big fish in small ponds."]
+			id: "29615BA3EBE31C2E"
+			tasks: [{
+				id: "7A4B9F35615BD0BA"
+				type: "checkmark"
+				title: "Exotic Stuff"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			id: "202AF22D31F1882E"
+			tasks: [{
+				id: "1C08C97CB8AA69A5"
+				type: "item"
+				item: "alexsmobs:mungal_spores"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			description: ["A way to summon a Wandering Trader consistently. And there's another item that sends it away"]
+			id: "03CE760B244CDA08"
+			tasks: [{
+				id: "55575166ECD7B5AE"
+				type: "item"
+				item: "minecraft:acacia_sapling"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			description: ["Gives items that allow players to (slightly more easily) acquire infinite resources"]
+			id: "16F12453FF9C0A20"
+			tasks: [{
+				id: "4DA48AB024137AD3"
+				type: "checkmark"
+				title: "I'm Lazy lol"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			id: "498CCF20702807D0"
+			tasks: [{
+				id: "36EBE688D516DE5E"
+				type: "checkmark"
+				title: "Wooly Sapling"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			description: ["Infinite iron nuggets because where does the glitter keep coming from man"]
+			id: "3A37B86FF4292A25"
+			tasks: [{
+				id: "45DB0D217E1918CC"
+				type: "checkmark"
+				title: "Glitter bottle"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			id: "3C3308A2371569AC"
+			tasks: [{
+				id: "4A21992F620B162B"
+				type: "item"
+				item: "minecraft:budding_amethyst"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			shape: "square"
+			size: 1.4d
+			id: "5F68824669846669"
+			tasks: [{
+				id: "4ABD2EB4EC447B32"
+				type: "checkmark"
+				title: "Overview"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

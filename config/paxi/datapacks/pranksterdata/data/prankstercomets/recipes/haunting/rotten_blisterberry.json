@@ -1,0 +1,13 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "undergarden:blisterberry"
+    }
+  ],
+  "results": [
+    {
+      "item": "undergarden:rotten_blisterberry"
+    }
+  ]
+}

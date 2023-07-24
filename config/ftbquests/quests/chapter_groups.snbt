@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "306F027EF23760DF", title: "Getting Started" }
+		{ id: "1629A32369B336AD", title: "Modpack Essentials" }
+		{ id: "387F0E6513CA7F71", title: "Comet Medals" }
+		{ id: "089861E436C56AD5", title: "To Die" }
+	]
+}

@@ -1,0 +1,124 @@
+{
+	id: "31E26A978726C002"
+	group: "387F0E6513CA7F71"
+	order_index: 0
+	filename: "obtenance"
+	title: "Obtaining"
+	icon: "minecraft:clock"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "minecraft:golden_apple"
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"Comet medals can be earned or manufactured. Complete audacious feats, or find sources of hoaxite to process."
+				""
+				"As you progress, new information may reveal itself in time. Keep close watch!"
+			]
+			size: 1.4d
+			id: "07F7C6A1AE574453"
+			tasks: [{
+				id: "6170901B0FA245D9"
+				type: "checkmark"
+				title: "Overview"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			description: [
+				"Every 239 years, rare meteorites (known as Prankster Comets in orbit) shower the world with a rather odd mineral, hoaxite. Ineffably, it can embed itself deep within the Overworld, almost just as often as it can exist on the surface."
+				""
+				"If you happen upon such precious ores, mine them carefully. And don't be surprised if they put up a little resistance! The ore has a chance to drop what you seek."
+			]
+			id: "77760F5967A88DF7"
+			tasks: [{
+				id: "1B4977AEF2646748"
+				type: "checkmark"
+				title: "Hoaxite"
+			}]
+		}
+		{
+			title: "Worldtype: Superflat"
+			x: 2.0d
+			y: 0.0d
+			description: ["Long has the Nether remained encased in a stratum of bedrock. What forces kept all of the dimension's fauna confined here? More importantly, how will you defy them?"]
+			id: "5286E0C9D55A53D2"
+			tasks: [{
+				id: "45EA9C0D0A6530B8"
+				type: "location"
+				title: "Escape your chains"
+				icon: "minecraft:crimson_nylium"
+				dimension: "minecraft:the_nether"
+				ignore_dimension: false
+				position: [I;
+					-29999984
+					128
+					-29999984
+				]
+				size: [I;
+					59999968
+					128
+					59999968
+				]
+			}]
+		}
+		{
+			title: "Well, That Was Unexpected"
+			x: 2.0d
+			y: -1.5d
+			description: ["Not the intended interpretation, but valid nonetheless!"]
+			id: "4976CB70B6D8B5E7"
+			tasks: [{
+				id: "05E6204116A09D0B"
+				type: "location"
+				title: "Taste the void"
+				icon: "minecraft:black_concrete"
+				dimension: "minecraft:the_nether"
+				ignore_dimension: false
+				position: [I;
+					-29999984
+					-300
+					-29999984
+				]
+				size: [I;
+					1
+					300
+					1
+				]
+			}]
+		}
+		{
+			title: "Bring Home the Bacon"
+			x: 3.5d
+			y: 0.0d
+			description: ["This type of discipline requires both the carrot and the stick."]
+			id: "43BE8ECFEDC79ECF"
+			tasks: [{
+				id: "4033C6E4B6F43108"
+				type: "stat"
+				title: "Go the distance"
+				icon: "abnormals_delight:maple_glazed_bacon"
+				stat: "minecraft:pig_one_cm"
+				value: 125
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			id: "382597ECDEE1A123"
+			tasks: [{
+				id: "704BED466F4591B9"
+				type: "stat"
+				title: "You're Obnoxious."
+				icon: "minecraft:bell"
+				stat: "minecraft:bell_ring"
+				value: 1
+			}]
+		}
+	]
+	quest_links: [ ]
+}

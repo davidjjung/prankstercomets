@@ -1,0 +1,23 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "farmersdelight:tree_bark"
+    }
+  ],
+  "results": [
+    {
+      "item": "dustrial_decor:cardboard",
+      "count": 2
+    }
+  ]
+}

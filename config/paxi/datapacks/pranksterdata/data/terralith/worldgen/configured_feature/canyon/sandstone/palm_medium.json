@@ -1,0 +1,75 @@
+{
+  "config": {
+    "decorators": [
+      {
+        "type": "minecraft:alter_ground",
+        "provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 2,
+              "data": {
+                "Name": "minecraft:moss_block",
+                "Properties": {
+                  "snowy": "false"
+                }
+              }
+            },
+            {
+              "weight": 0,
+              "data": {
+                "Name": "minecraft:red_sand"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "ignore_vines": true,
+    "force_dirt": false,
+    "dirt_provider": {
+      "state": {
+        "Name": "minecraft:dirt"
+      },
+      "type": "minecraft:simple_state_provider"
+    },
+    "minimum_size": {
+      "limit": 1,
+      "lower_size": 0,
+      "upper_size": 1,
+      "type": "minecraft:two_layers_feature_size"
+    },
+    "trunk_provider": {
+      "state": {
+        "Properties": {
+          "axis": "y"
+        },
+        "Name": "ecologics:coconut_log"
+      },
+      "type": "minecraft:simple_state_provider"
+    },
+    "trunk_placer": {
+      "base_height": 6,
+      "height_rand_a": 4,
+      "height_rand_b": 0,
+      "type": "ecologics:slanted_trunk_placer"
+    },
+    "foliage_provider": {
+      "state": {
+        "Properties": {
+          "persistent": "false",
+          "distance_9": "9",
+          "distance": "7"
+        },
+        "Name": "ecologics:coconut_leaves"
+      },
+      "type": "minecraft:simple_state_provider"
+    },
+    "foliage_placer": {
+      "radius": 0,
+      "offset": 0,
+      "type": "ecologics:coconut_foliage_placer"
+    }
+  },
+  "type": "minecraft:tree"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "architects_palette:warping",
+  "ingredient": [
+    {
+      "item": "supplementaries:silver_lantern"
+    }
+  ],
+  "result": {
+    "item": "supplementaries:lead_lantern"
+  },
+  "dimension": "undergarden:undergarden"
+}

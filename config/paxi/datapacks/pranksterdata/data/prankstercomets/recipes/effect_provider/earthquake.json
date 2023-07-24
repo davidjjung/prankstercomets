@@ -1,0 +1,11 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "alexsmobs:earthquake"
+  },
+  "providers": [
+    {
+      "item": "alexsmobs:spawn_egg_rocky_roller"
+    }
+  ]
+}

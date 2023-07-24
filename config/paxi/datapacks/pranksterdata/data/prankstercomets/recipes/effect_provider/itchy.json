@@ -1,0 +1,11 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "bellybutton:itchy"
+  },
+  "providers": [
+    {
+      "item": "bellybutton:evil_dust_bunny_spawn_egg"
+    }
+  ]
+}

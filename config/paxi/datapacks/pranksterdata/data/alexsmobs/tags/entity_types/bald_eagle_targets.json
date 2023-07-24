@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:rabbit",
+    "minecraft:salmon",
+    "alexsmobs:raccoon",
+    "upgrade_aquatic:perch",
+    "upgrade_aquatic:pike",
+    "alexsmobs:jerboa",
+    "alexsmobs:catfish",
+    "alexsmobs:flying_fish",
+    "alexsmobs:triops"
+  ]
+}

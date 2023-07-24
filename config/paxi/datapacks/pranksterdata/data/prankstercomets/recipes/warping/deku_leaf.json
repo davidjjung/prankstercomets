@@ -1,0 +1,12 @@
+{
+  "type": "architects_palette:warping",
+  "ingredient": [
+    {
+      "item": "paraglider:paraglider"
+    }
+  ],
+  "result": {
+    "item": "paraglider:deku_leaf"
+  },
+  "dimension": "undergarden:undergarden"
+}

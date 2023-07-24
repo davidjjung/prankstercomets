@@ -1,0 +1,227 @@
+{
+	id: "4ACE43C2A879A487"
+	group: "306F027EF23760DF"
+	order_index: 0
+	filename: "keybinds"
+	title: "Technical Details"
+	icon: "minecraft:white_tulip"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Sitting"
+			icon: "create:purple_seat"
+			x: 3.0d
+			y: 0.0d
+			description: ["Toggled with Z by default. Allows you to sit anywhere, not just on seats!"]
+			id: "69FB35BAF0F605E4"
+			tasks: [{
+				id: "6B4F8FF9B36FB680"
+				type: "checkmark"
+				title: "Can't wait to try this out on some magma"
+			}]
+		}
+		{
+			title: "Building Shorthand"
+			icon: {
+				id: "supplementaries:wrench"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -2.0d
+			y: 1.0d
+			description: ["Build effortlessly with a little help from your geometric friends. Open a wheel of shapes (Left Alt by default) and a choose a mode to aid in construction."]
+			id: "0F40CB472BF8EE37"
+			tasks: [{
+				id: "55A540B40706CA90"
+				type: "checkmark"
+				title: "Not sure what that \"sphere\" mode is though"
+			}]
+		}
+		{
+			title: "Overview"
+			x: 0.0d
+			y: -2.0d
+			shape: "square"
+			description: [
+				"Let's get the formalities out of the way first. Make sure your key binds don't overlap, and adjust your view of the sidebar so it doesn't shift around too much."
+				""
+				"While scrolling the key binds, you may spot a couple exciting functions. Remember that there's no telling which are actually accessible, however. :P"
+			]
+			size: 1.4d
+			id: "5183FC8DBF303368"
+			tasks: [{
+				id: "3F812966FDAC30B6"
+				type: "checkmark"
+				title: "Check yourself before you wreck yourself"
+			}]
+		}
+		{
+			title: "Crawling"
+			icon: "minecraft:yellow_carpet"
+			x: -1.0d
+			y: 0.0d
+			description: [
+				"Holding C triggers this ability by default. It allows players to navigate tighter spaces or swim in shallow water."
+				""
+				"Also proves surprisingly effective for navigating contraptions not accessible to human bodies."
+			]
+			id: "7C00DFF69F85A0D5"
+			tasks: [{
+				id: "1B54B4803F191CB6"
+				type: "checkmark"
+				title: "The authentic 1800s child labor experience"
+			}]
+		}
+		{
+			title: "Throwing Weapons"
+			icon: {
+				id: "undergarden:froststeel_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.0d
+			y: 1.0d
+			description: ["As a last ditch effort, chuck your weapons at your aggressors. Hold and release R by default."]
+			id: "6EB00B946A8EE416"
+			tasks: [{
+				id: "7C674A68ADB92368"
+				type: "checkmark"
+				title: "Throwing Weapons"
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "alexsmobs:textures/mob_effect/soulsteal.png"
+				}
+			}
+			x: -1.0d
+			y: 2.0d
+			description: ["You may have stumbled across this while reviewing the keybinds, but yes, you can morph into other entities! Specifically for morphing into other players"]
+			invisible: true
+			id: "715597E9E9405F9B"
+			tasks: [{
+				id: "788294EC7917A45E"
+				type: "checkmark"
+				title: "It's Morphin' Time"
+			}]
+		}
+		{
+			title: "Ravaging"
+			x: 1.0d
+			y: 2.0d
+			description: ["Used for attacking while mounting a tamed Ravager. Triggered with G by default."]
+			invisible: true
+			id: "315241A4AF7025FC"
+			tasks: [{
+				id: "74CBAA1EB694D876"
+				type: "item"
+				item: "ravageandcabbage:cabbage"
+			}]
+		}
+		{
+			title: "Showcasing Items"
+			icon: {
+				id: "savage_and_ravage:griefer_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.0d
+			y: 0.0d
+			description: ["Want to show something off in chat? Press Shift+X by default with your cursor over the item."]
+			id: "78484481107D4D20"
+			tasks: [{
+				id: "3267D237DA5EEA13"
+				type: "checkmark"
+				title: "Acceptable method of intimidation"
+			}]
+		}
+		{
+			title: "Wrangling REI"
+			icon: "minecraft:writable_book"
+			x: -3.0d
+			y: 0.0d
+			description: ["Go into REI's settings (the gear icon at the bottom in the inventory GUI), and change the \"Entries Column Limit\" to ensure that it doesn't change the number of columns when searching for recipes."]
+			id: "0F11E40DBBD5FA31"
+			tasks: [{
+				id: "5B654C0779F4850A"
+				type: "checkmark"
+				title: "6 works pretty well for me"
+			}]
+		}
+		{
+			title: "A Closer Look"
+			icon: "minecraft:spyglass"
+			x: 0.0d
+			y: 1.0d
+			description: ["If you'd like to view blocks more closely while on the hunt for the perfect building block, toggle a zoomed-in view of the sidebar with Shift+Z by default."]
+			id: "7F8CD516B1987EFF"
+			tasks: [{
+				id: "7EC2AB08CCCB37E3"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Third Person View"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/mob_effect/night_vision.png"
+				}
+			}
+			x: -3.0d
+			y: 2.0d
+			description: ["Toggled with F5 by default. It may seem silly to point out, but there will be certain moments where it's better to view yourself from perspectives other than your own."]
+			id: "67FE2A60FE48B5EA"
+			tasks: [{
+				id: "50C54526168FEC4C"
+				type: "checkmark"
+				title: "Just like real life, eh"
+			}]
+			rewards: [{
+				id: "7DBD9ADBC51906B4"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:night_vision"
+					}
+				}
+			}]
+		}
+		{
+			title: "Pondering"
+			icon: "create:brass_hand"
+			x: 3.0d
+			y: 2.0d
+			description: [
+				"If you'd like to learn more about certain contraption actors, you can access a \"ponder\" dialogue for certain blocks. Accessed by holding W by default."
+				""
+				"Unfamiliar with contraptions? Not to fret; we've included a basic guide to help you follow along with some processing methods. Check out the \"Contraption Tutorial\" tab for more info."
+			]
+			id: "44F6B6C54830F8FB"
+			tasks: [{
+				id: "0A6C40875DC1CD7E"
+				type: "checkmark"
+				disable_toast: true
+			}]
+			rewards: [{
+				id: "24EAA695B797CDF4"
+				type: "item"
+				item: "create:brass_hand"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

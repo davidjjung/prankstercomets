@@ -1,0 +1,421 @@
+[
+  {
+    "mob": "naturalist:boar",
+    "persecond": 0.2,
+    "amount": {
+      "minimum": 2,
+      "maximum": 5,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 45,
+      "maxheight": 175,
+      "maxthis": 5
+    }
+  },
+  {
+    "mob": "snowpig:snow_pig",
+    "persecond": 0.2,
+    "amount": {
+      "minimum": 2,
+      "maximum": 5,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 45,
+      "maxheight": 175,
+      "maxthis": 5
+    }
+  },
+  {
+    "mob": "alexsmobs:raccoon",
+    "persecond": 0.2,
+    "amount": {
+      "minimum": 2,
+      "maximum": 5,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 45,
+      "maxheight": 175,
+      "maxthis": 5
+    }
+  },
+  {
+    "mob": "ecologics:squirrel",
+    "persecond": 0.2,
+    "amount": {
+      "minimum": 4,
+      "maximum": 5,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 45,
+      "maxheight": 175,
+      "maxthis": 7
+    }
+  },
+  {
+    "mob": "alexsmobs:toucan",
+    "persecond": 0.1,
+    "amount": {
+      "minimum": 2,
+      "maximum": 5,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 45,
+      "maxheight": 145,
+      "inair": true,
+      "maxthis": 6
+    }
+  },
+  {
+    "mob": "naturalist:vulture",
+    "persecond": 0.1,
+    "amount": {
+      "minimum": 2,
+      "maximum": 5,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 45,
+      "maxheight": 145,
+      "inair": true,
+      "maxthis": 6
+    }
+  },
+  {
+    "mob": "alexsmobs:flutter",
+    "persecond": 0.1,
+    "amount": {
+      "minimum": 2,
+      "maximum": 5,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 45,
+      "maxheight": 145,
+      "inair": true,
+      "maxthis": 3
+    }
+  },
+  {
+    "mob": "alexsmobs:crow",
+    "persecond": 0.1,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 45,
+      "maxheight": 145,
+      "inair": true,
+      "maxthis": 6
+    }
+  },
+  {
+    "mob": "alexsmobs:seagull",
+    "persecond": 0.2,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 45,
+      "maxheight": 145,
+      "inair": true,
+      "maxthis": 8
+    }
+  },
+  {
+    "mob": "alexsmobs:bald_eagle",
+    "persecond": 0.2,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 45,
+      "maxheight": 145,
+      "inair": true,
+      "maxthis": 3
+    }
+  },
+  {
+    "mob": "minecraft:salmon",
+    "persecond": 0.2,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 45,
+      "maxheight": 145,
+      "inwater": true,
+      "maxthis": 10
+    }
+  },
+  {
+    "mob": "habitat:passerine",
+    "persecond": 0.3,
+    "amount": {
+      "minimum": 2,
+      "maximum": 5,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 45,
+      "maxheight": 145,
+      "inair": true,
+      "maxthis": 6
+    }
+  },
+  {
+    "mob": "sullysmod:tortoise",
+    "persecond": 0.1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 45,
+      "maxheight": 175,
+      "maxthis": 15,
+      "maxpeaceful": 15
+    }
+  },
+  {
+    "mob": "wildbackport:frog",
+    "persecond": 0.4,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 45,
+      "maxheight": 175,
+      "maxthis": 4
+    }
+  },
+  {
+    "mob": "environmental:slabfish",
+    "persecond": 0.3,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 45,
+      "maxheight": 175,
+      "maxthis": 6,
+      "maxpeaceful": 15
+    }
+  },
+  {
+    "mob": "ecologics:camel",
+    "persecond": 0.1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 45,
+      "maxheight": 175,
+      "maxthis": 5
+    }
+  },
+  {
+    "mob": "naturalist:caterpillar",
+    "persecond": 0.1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 45,
+      "maxheight": 175,
+      "maxthis": 3,
+      "maxpeaceful": 20
+    }
+  },
+  {
+    "mob": "alexsmobs:guster",
+    "persecond": 0.5,
+    "amount": {
+      "minimum": 8,
+      "maximum": 8,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 45,
+      "maxheight": 225,
+      "norestrictions": true,
+      "maxthis": 15
+    }
+  },
+  {
+    "mob": "galosphere:spectre",
+    "persecond": 0.25,
+    "amount": {
+      "minimum": 2,
+      "maximum": 5,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 45,
+      "maxheight": 225,
+      "norestrictions": true,
+      "maxthis": 5
+    }
+  },
+  {
+    "mob": "minecraft:skeleton_horse",
+    "persecond": 0.1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 45,
+      "maxheight": 175,
+      "maxthis": 1
+    }
+  },
+  {
+    "mob": "bellybutton:evil_dust_bunny",
+    "persecond": 0.3,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 45,
+      "maxheight": 175,
+      "maxthis": 6
+    }
+  },
+  {
+    "mob": "savage_and_ravage:trickster",
+    "persecond": 0.3,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 45,
+      "maxheight": 175,
+      "norestrictions": true,
+      "maxthis": 1
+    }
+  },
+  {
+    "mob": "bellybutton:dust_bunny",
+    "persecond": 0.3,
+    "amount": {
+      "minimum": 4,
+      "maximum": 4,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 45,
+      "maxheight": 175,
+      "maxthis": 5
+    }
+  },
+  {
+    "mob": "alexsmobs:jerboa",
+    "persecond": 0.4,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 45,
+      "maxheight": 175,
+      "maxthis": 11
+    }
+  },
+  {
+    "mob": "alexsmobs:roadrunner",
+    "persecond": 0.4,
+    "amount": {
+      "minimum": 6,
+      "maximum": 6,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 45,
+      "maxheight": 175,
+      "maxthis": 8
+    }
+  },
+  {
+    "mob": "naturalist:rattlesnake",
+    "persecond": 0.1,
+    "amount": {
+      "minimum": 2,
+      "maximum": 2,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 45,
+      "maxheight": 175,
+      "maxthis": 3
+    }
+  },
+  {
+    "mob": "alexsmobs:gazelle",
+    "persecond": 0.1,
+    "amount": {
+      "minimum": 8,
+      "maximum": 11,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 45,
+      "maxheight": 175,
+      "maxthis": 10
+    }
+  }
+]

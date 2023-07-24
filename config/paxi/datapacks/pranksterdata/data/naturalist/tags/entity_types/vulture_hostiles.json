@@ -1,0 +1,23 @@
+{
+  "values": [
+    "minecraft:zombie",
+    "minecraft:zombie_villager",
+    "minecraft:husk",
+    "minecraft:zombified_piglin",
+    "minecraft:zoglin",
+    "rottencreatures:burned",
+    "rottencreatures:frostbitten",
+    "rottencreatures:swampy",
+    "rottencreatures:mummy",
+    "rottencreatures:scarab",
+    "rottencreatures:flying_scarab",
+    "rottencreatures:undead_miner",
+    "rottencreatures:glacial_hunter",
+    "rottencreatures:dead_beard",
+    "rottencreatures:immortal",
+    "rottencreatures:zap",
+    "rottencreatures:zombie_lackey",
+    "environmental:zombie_deer",
+    "minecraft:zombie_horse"
+  ]
+}

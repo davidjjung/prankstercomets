@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "undergarden:ink_mushroom"
+    },
+    {
+      "item": "undergarden:ink_mushroom"
+    },
+    {
+      "item": "undergarden:shimmerweed"
+    }
+  ],
+  "result": {
+    "item": "undergarden:inky_stew"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

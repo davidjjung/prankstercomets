@@ -1,0 +1,397 @@
+[
+  {
+    "mob": "naturalist:boar",
+    "biome": ["terralith:amethyst_canyon","terralith:arid_highlands","terralith:savanna"],
+    "result": "allow"
+  },
+  {
+    "mob": "naturalist:boar",
+    "result": "deny"
+  },
+  {
+    "mob": "snowpig:snow_pig",
+    "biome": ["terralith:snowy_maple_forest"],
+    "incontrol": true,
+    "result": "allow"
+  },
+  {
+    "mob": "snowpig:snow_pig",
+    "incontrol": true,
+    "result": "deny"
+  },
+  {
+    "mob": "ecologics:squirrel",
+    "biome": ["terralith:snowy_maple_forest","terralith:lavender_forest","terralith:lavender_valley"],
+    "incontrol": true,
+    "result": "allow"
+  },
+  {
+    "mob": "ecologics:squirrel",
+    "incontrol": true,
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:raccoon",
+    "biome": ["minecraft:birch_forest","minecraft:old_growth_birch_forest","terralith:lavender_forest","terralith:lavender_valley","terralith:birch_taiga"],
+    "result": "allow"
+  },
+  {
+    "mob": "alexsmobs:raccoon",
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:toucan",
+    "biome": ["terralith:amethyst_canyon","atmospheric:rainforest","atmospheric:rainforest_basin"],
+    "result": "allow"
+  },
+  {
+    "mob": "alexsmobs:toucan",
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:flutter",
+    "biome": ["terralith:desert_oasis"],
+    "seesky": true,
+    "result": "allow"
+  },
+  {
+    "mob": "alexsmobs:flutter",
+    "incontrol": true,
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:seagull",
+    "biome": ["minecraft:stony_shore","terralith:gravel_beach","minecraft:beach","terralith:white_cliffs","minecraft:ocean"],
+    "result": "allow"
+  },
+  {
+    "mob": "alexsmobs:seagull",
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:bald_eagle",
+    "biome": ["terralith:sandstone_valley","terralith:shield","terralith:shield_clearing","terralith:wintry_forest","terralith:wintry_lowlands","minecraft:old_growth_spruce_taiga"],
+    "result": "allow"
+  },
+  {
+    "mob": "alexsmobs:bald_eagle",
+    "result": "deny"
+  },
+  {
+    "mob": "naturalist:vulture",
+    "biome": ["minecraft:desert","terralith:desert_canyon", "minecraft:badlands", "minecraft:wooded_badlands"],
+    "result": "allow"
+  },
+  {
+    "mob": "naturalist:vulture",
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:crow",
+    "biome": ["autumnity:maple_forest","autumnity:pumpkin_fields","terralith:snowy_maple_forest","terralith:ashen_savanna"],
+    "result": "allow"
+  },
+  {
+    "mob": "alexsmobs:crow",
+    "result": "deny"
+  },
+  {
+    "mob": "sullysmod:tortoise",
+    "biome": ["terralith:amethyst_canyon","atmospheric:flourishing_dunes","atmospheric:dunes"],
+    "result": "allow"
+  },
+  {
+    "mob": "sullysmod:tortoise",
+    "result": "deny"
+  },
+  {
+    "mob": "naturalist:caterpillar",
+    "biome": ["terralith:moonlight_grove"],
+    "result": "default"
+  },
+  {
+    "mob": "naturalist:caterpillar",
+    "result": "deny"
+  },
+  {
+    "mob": "neapolitan:chimpanzee",
+    "biome": ["minecraft:jungle","minecraft:bamboo_jungle","terralith:tropical_jungle","terralith:rocky_jungle"],
+    "result": "default"
+  },
+  {
+    "mob": "neapolitan:chimpanzee",
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:guster",
+    "seesky": true,
+    "biome": ["terralith:ancient_sands"],
+    "result": "allow"
+  },
+  {
+    "mob": "alexsmobs:guster",
+    "incontrol": true,
+    "result": "deny"
+  },
+  {
+    "mob": "savage_and_ravage:trickster",
+    "seesky": true,
+    "incontrol": true,
+    "biome": ["terralith:warped_mesa"],
+    "result": "allow"
+  },
+  {
+    "mob": "savage_and_ravage:trickster",
+    "incontrol": true,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:skeleton_horse",
+    "biome": ["terralith:ashen_savanna"],
+    "seesky": true,
+    "random": 0.1,
+    "result": "allow",
+    "nbt": {"Tame": 1}
+  },
+  {
+    "mob": "minecraft:skeleton_horse",
+    "incontrol": true,
+    "result": "deny"
+  },
+  {
+    "mob": "bellybutton:evil_dust_bunny",
+    "biome": ["terralith:ashen_savanna"],
+    "mintime": 13000,
+    "maxtime": 23999,
+    "incontrol": true,
+    "random": 0.1,
+    "nbt": {"Size": 2},
+    "result": "allow"
+  },
+  {
+    "mob": "bellybutton:evil_dust_bunny",
+    "biome": ["terralith:ashen_savanna"],
+    "mintime": 13000,
+    "maxtime": 23999,
+    "incontrol": true,
+    "seesky": true,
+    "nbt": {"Size": 0},
+    "result": "allow"
+  },
+  {
+    "mob": "bellybutton:evil_dust_bunny",
+    "incontrol": true,
+    "result": "deny"
+  },
+  {
+    "mob": "bellybutton:dust_bunny",
+    "biome": ["terralith:ashen_savanna"],
+    "seesky": true,
+    "incontrol": true,
+    "result": "allow",
+    "nbt": {"Size": 1}
+  },
+  {
+    "mob": "bellybutton:dust_bunny",
+    "incontrol": true,
+    "result": "deny"
+  },
+  {
+    "mob": ["naturalist:rhino","naturalist:lion","naturalist:giraffe","naturalist:elephant","naturalist:zebra","naturalist:hippo"],
+    "biome": ["terralith:ashen_savanna","terralith:shrubland"],
+    "result": "deny"
+  },
+  {
+    "mob": ["naturalist:rhino","naturalist:giraffe","naturalist:elephant","naturalist:hippo"],
+    "biome": ["terralith:arid_highlands"],
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:jerboa",
+    "biome": ["atmospheric:dunes","atmospheric:rocky_dunes","atmospheric:petrified_dunes"],
+    "result": "allow"
+  },
+  {
+    "mob": "alexsmobs:jerboa",
+    "result": "deny"
+  },
+  {
+    "mob": "habitat:passerine",
+    "biome": ["atmospheric:petrified_dunes","minecraft:birch_forest"],
+    "incontrol": true,
+    "result": "allow"
+  },
+  {
+    "mob": "habitat:passerine",
+    "biome": ["terralith:shrubland"],
+    "nbt": {"Variant": 6},
+    "result": "allow"
+  },
+  {
+    "mob": "habitat:passerine",
+    "incontrol": true,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:salmon",
+    "biome": ["terralith:cold_shrubland"],
+    "incontrol": true,
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:salmon",
+    "incontrol": true,
+    "result": "deny"
+  },
+  {
+    "mob": "ecologics:camel",
+    "biome": ["minecraft:desert","terralith:desert_oasis","terralith:desert_canyon","atmospheric:rocky_dunes"],
+    "incontrol": true,
+    "result": "allow"
+  },
+  {
+    "mob": "ecologics:camel",
+    "incontrol": true,
+    "result": "deny"
+  },
+  {
+    "mob": "galosphere:spectre",
+    "biome": ["terralith:white_cliffs"],
+    "incontrol": true,
+    "result": "allow"
+  },
+  {
+    "mob": "galosphere:spectre",
+    "incontrol": true,
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:roadrunner",
+    "biome": ["terralith:hot_shrubland"],
+    "result": "allow"
+  },
+  {
+    "mob": "alexsmobs:roadrunner",
+    "result": "deny"
+  },
+  {
+    "mob": "naturalist:rattlesnake",
+    "biome": ["terralith:hot_shrubland"],
+    "result": "allow"
+  },
+  {
+    "mob": "naturalist:rattlesnake",
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:gazelle",
+    "biome": ["terralith:arid_highlands"],
+    "result": "allow"
+  },
+  {
+    "mob": "alexsmobs:gazelle",
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:emu",
+    "biome": ["minecraft:badlands","minecraft:wooded_badlands"],
+    "result": "allow"
+  },
+  {
+    "mob": "alexsmobs:emu",
+    "result": "deny"
+  },
+  {
+    "biome": "terralith:painted_mountains",
+    "mob": "minecraft:zombie",
+    "random": 0.5,
+    "nbt": {
+      "HandItems": [
+        {
+          "Count": 1,
+          "id": "minecraft:air"
+        },
+        {
+          "Count": 1,
+          "id": "zetter:paints"
+        }
+      ]
+    }
+  },
+  {
+    "biome": "terralith:andesite_caves",
+    "mob": "quark:stoneling",
+    "nbt": {"variant":1}
+  },
+  {
+    "biome": "terralith:diorite_caves",
+    "mob": "quark:stoneling",
+    "nbt": {"variant":2}
+  },
+  {
+    "biome": "terralith:granite_caves",
+    "mob": "quark:stoneling",
+    "nbt": {"variant":3}
+  },
+  {
+    "biome": "terralith:deep_caves",
+    "mob": "quark:stoneling",
+    "nbt": {"variant":8}
+  },
+  {
+    "biome": "minecraft:dripstone_caves",
+    "mob": "quark:stoneling",
+    "nbt": {"variant":10}
+  },
+  {
+    "biome": "terralith:ice_marsh",
+    "mob": "environmental:slabfish",
+    "nbt": {"SlabfishType":"environmental:taiga"}
+  },
+  {
+    "biome": ["minecraft:swamp","terralith:orchid_swamp","environmental:marsh"],
+    "mob": "environmental:slabfish",
+    "result": "allow"
+  },
+  {
+    "mob": "environmental:slabfish",
+    "result": "deny"
+  },
+  {
+    "biome": "terralith:ice_marsh",
+    "mob": "wildbackport:frog",
+    "nbt": {"Variant":2},
+    "result": "allow"
+  },
+  {
+    "biome": "terralith:orchid_swamp",
+    "mob": "wildbackport:frog",
+    "nbt": {"Variant":1},
+    "result": "allow"
+  },
+  {
+    "biome": ["wildbackport:mangrove_swamp","minecraft:swamp"],
+    "mob": "wildbackport:frog",
+    "result": "allow"
+  },
+  {
+    "mob": "wildbackport:frog",
+    "result": "deny"
+  },
+  {
+    "mob": "naturalist:firefly",
+    "biome": ["terralith:hot_shrubland"],
+    "result": "deny"
+  },
+  {
+    "mob": "naturalist:bear",
+    "biome": ["terralith:lavender_forest","terralith:lavender_valley","environmental:blossom_woods"],
+    "result": "deny"
+  },
+  {
+    "mob": "ecologics:coconut_crab",
+    "biome": ["terralith:desert_oasis"],
+    "random": 0.8,
+    "result": "deny"
+  }
+]

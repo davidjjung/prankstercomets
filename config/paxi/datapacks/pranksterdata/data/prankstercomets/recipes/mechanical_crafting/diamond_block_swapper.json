@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "SIDIS",
+    "  E  ",
+    "  E  ",
+    "  E  "
+  ],
+  "key": {
+    "S": {
+      "item": "create:shadow_steel"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "E": {
+      "item": "architects_palette:entwine_rod"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "blockswapper:diamond_block_swapper"
+  },
+  "acceptMirrored": true
+}

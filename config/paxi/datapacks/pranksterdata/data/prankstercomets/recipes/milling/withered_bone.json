@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "architects_palette:withered_bone"
+    }
+  ],
+  "results": [
+    {
+      "item": "immersive_weathering:ash_layer_block"
+    }
+  ],
+  "processingTime": 100
+}

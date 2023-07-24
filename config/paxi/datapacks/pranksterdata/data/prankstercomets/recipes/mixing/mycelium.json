@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "alexsmobs:mungal_spores"
+    },
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "alexsmobs:mungal_spores"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:mycelium",
+      "count": 2
+    }
+  ]
+}
