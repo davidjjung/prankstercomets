@@ -44,5 +44,10 @@ to make editing this file much easier.
 	   		"minecraft:diamond_block": "minecraft:emerald_block"
 	   	}
 	*/
-	"swapper": {"environmental:cherry_leaf_pile": "immersive_weathering:environmental/cherry_leaf_pile"}
+	"swapper": {"environmental:cherry_leaf_pile": "immersive_weathering:environmental/cherry_leaf_pile",
+	"autumnity:orange_maple_leaf_pile": "immersive_weathering:autumnity/orange_maple_leaf_pile",
+	"autumnity:maple_leaf_pile": "immersive_weathering:autumnity/maple_leaf_pile",
+	"autumnity:red_maple_leaf_pile": "immersive_weathering:autumnity/red_maple_leaf_pile",
+	"autumnity:yellow_maple_leaf_pile": "immersive_weathering:autumnity/yellow_maple_leaf_pile",
+	}
 }
