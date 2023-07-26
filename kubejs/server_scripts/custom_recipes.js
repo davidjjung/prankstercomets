@@ -39,29 +39,7 @@ onEvent('recipes', event => {
     // Block Swapper
     event.remove({id: 'blockswapper:diamond_block_swapper'})
     event.remove({output: 'blockswapper:copper_block_swapper'})
-	
-	// Breezy
-	event.remove({output: 'breezy:hot_air_balloon'})
-	event.remove({output: 'breezy:gust_gauge'})
-	event.shaped('breezy:hot_air_balloon', [
-    'OWO',
-    'R R',
-    'PPP'
-  ], {
-    O: 'minecraft:orange_wool',
-    W: 'minecraft:white_wool',
-    R: 'farmersdelight:rope',
-	P: '#minecraft:planks'
-  })
-  	event.shaped('breezy:gust_gauge', [
-    ' C ',
-    'GRG',
-    ' C '
-  ], {
-    C: 'minecraft:copper_ingot',
-    G: 'minecraft:gold_ingot',
-    R: 'minecraft:redstone'
-  })
+
     // Buzzier Bees
     event.remove({id: 'buzzier_bees:honey/glazed_porkchop'})
     // Create

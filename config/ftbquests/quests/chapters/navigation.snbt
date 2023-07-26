@@ -98,30 +98,6 @@
 			}]
 		}
 		{
-			title: "Wind in Our Sails"
-			x: 0.0d
-			y: -1.5d
-			description: [
-				"With the gust gauge, you can tell which way the wind is blowing on a given day at any altitude."
-				""
-				"If you're in a vessel subject to the whims of the sky, note that maintaining your altitude maintains your direction."
-			]
-			dependencies: ["7C9E0DD6798DED8C"]
-			id: "4C6370D56C33548E"
-			tasks: [{
-				id: "6E560E2C5089EDA1"
-				type: "item"
-				icon: {
-					id: "ftbquests:custom_icon"
-					Count: 1b
-					tag: {
-						Icon: "breezy:textures/item/gust_gauge_16.png"
-					}
-				}
-				item: "breezy:gust_gauge"
-			}]
-		}
-		{
 			title: "Where Are You? [Innocent]"
 			icon: "undergarden:wigglewood_sapling"
 			x: -2.0d
@@ -132,10 +108,7 @@
 				"Note: both you and your companion need to be holding one for the connection to visually manifest."
 			]
 			hide_dependency_lines: true
-			dependencies: [
-				"4C6370D56C33548E"
-				"1EF73BDE6FE8DB3E"
-			]
+			dependencies: ["1EF73BDE6FE8DB3E"]
 			hide: true
 			id: "7C6F886F2E120565"
 			tasks: [{
@@ -151,10 +124,7 @@
 			y: 2.0d
 			description: ["Legend tells of"]
 			hide_dependency_lines: true
-			dependencies: [
-				"334A55706FD63E3E"
-				"4C6370D56C33548E"
-			]
+			dependencies: ["334A55706FD63E3E"]
 			hide: true
 			id: "636B3DDC90507801"
 			tasks: [{
@@ -211,7 +181,6 @@
 			x: 0.0d
 			y: -3.5d
 			description: ["You can briefly ride giraffes after coaxing them with an apple. Opening a map during that time will fill it out much faster!"]
-			dependencies: ["4C6370D56C33548E"]
 			hide: true
 			invisible: true
 			id: "72B74546C3076410"
