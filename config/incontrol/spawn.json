@@ -10,12 +10,23 @@
   },
   {
     "mob": "snowpig:snow_pig",
-    "biome": ["terralith:snowy_maple_forest"],
+    "biome": ["terralith:snowy_maple_forest","minecraft:snowy_slopes","minecraft:snowy_plains"],
     "incontrol": true,
     "result": "allow"
   },
   {
     "mob": "snowpig:snow_pig",
+    "incontrol": true,
+    "result": "deny"
+  },
+  {
+    "mob": "snuffles:snuffle",
+    "biome": ["minecraft:snowy_plains","minecraft:snowy_slopes"],
+    "incontrol": true,
+    "result": "allow"
+  },
+  {
+    "mob": "snuffles:snuffle",
     "incontrol": true,
     "result": "deny"
   },
@@ -70,7 +81,7 @@
   },
   {
     "mob": "alexsmobs:bald_eagle",
-    "biome": ["terralith:sandstone_valley","terralith:shield","terralith:shield_clearing","terralith:wintry_forest","terralith:wintry_lowlands","minecraft:old_growth_spruce_taiga"],
+    "biome": ["terralith:sandstone_valley","terralith:shield","terralith:shield_clearing","minecraft:old_growth_spruce_taiga","minecraft:old_growth_pine_taiga"],
     "result": "allow"
   },
   {
@@ -381,6 +392,11 @@
   {
     "mob": "naturalist:firefly",
     "biome": ["terralith:hot_shrubland"],
+    "result": "deny"
+  },
+  {
+    "mob": "naturalist:butterfly",
+    "biome": ["terralith:mountain_steppe","terralith:rocky_shrubland"],
     "result": "deny"
   },
   {

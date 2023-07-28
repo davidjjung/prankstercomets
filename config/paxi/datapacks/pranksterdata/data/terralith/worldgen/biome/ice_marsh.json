@@ -39,7 +39,9 @@
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
-    [],
+    [
+      "terralith:swamp/ice/patch_mud"
+    ],
     [],
     [
       "minecraft:ore_dirt",

@@ -6,12 +6,12 @@
       "block_search_extent": 8,
       "offset": 2
     },
-    "sky_color": 11653631,
-    "fog_color": 13494015,
-    "grass_color": 8163427,
-    "foliage_color": 8558204,
-    "water_color": 4159136,
-    "water_fog_color": 329011
+    "grass_color": 7382395,
+    "sky_color": 10858685,
+    "fog_color": 14145761,
+    "foliage_color": 8105565,
+    "water_color": 6388624,
+    "water_fog_color": 2302743
   },
   "carvers": {
     "air": [
@@ -21,7 +21,10 @@
     ]
   },
   "features": [
-    [],
+    [
+      "terralith:canyon/generic/cliff",
+      "terralith:canyon/generic/slab_stone"
+    ],
     [
       "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
@@ -37,12 +40,10 @@
     [],
     [],
     [
+      "minecraft:ore_dirt",
       "minecraft:ore_gravel",
-      "minecraft:ore_granite_upper",
       "minecraft:ore_granite_lower",
-      "minecraft:ore_diorite_upper",
       "minecraft:ore_diorite_lower",
-      "minecraft:ore_andesite_upper",
       "minecraft:ore_andesite_lower",
       "minecraft:ore_tuff",
       "minecraft:ore_coal_upper",
@@ -61,8 +62,9 @@
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
-      "terralith:shrubland/disk_podzol",
-      "terralith:shrubland/disk_terracotta"
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
     ],
     [],
     [
@@ -70,21 +72,20 @@
       "minecraft:spring_lava"
     ],
     [
-      "terralith:shrubland/cold/fir_bushes",
-      "terralith:shrubland/cold/bushes",
-      "terralith:shrubland/cold/small_trees",
-      "terralith:shrubland/cold/tiny_trees",
-      "terralith:shrubland/cold/cone_trees",
       "minecraft:glow_lichen",
-      "minecraft:patch_tall_grass_2",
-      "minecraft:plain_vegetation",
-      "minecraft:flower_plain_decorated",
-      "minecraft:patch_grass_plain",
+      "minecraft:patch_large_fern",
+      "terralith:shield/trees",
+      "terralith:shield/trees_birch",
+      "terralith:shield/trees_lark",
+      "minecraft:flower_default",
+      "minecraft:patch_grass_taiga_2",
+      "minecraft:brown_mushroom_taiga",
+      "minecraft:red_mushroom_taiga",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
-      "neapolitan:patch_strawberry_bush"
+      "minecraft:patch_berry_common"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -111,13 +112,13 @@
         "maxCount": 1
       },
       {
-        "type": "creeperoverhaul:spruce_creeper",
+        "type": "minecraft:skeleton",
         "weight": 100,
         "minCount": 4,
         "maxCount": 4
       },
       {
-        "type": "minecraft:skeleton",
+        "type": "minecraft:creeper",
         "weight": 100,
         "minCount": 4,
         "maxCount": 4
@@ -135,7 +136,7 @@
         "maxCount": 4
       },
       {
-        "type": "savage_and_ravage:iceologer",
+        "type": "minecraft:witch",
         "weight": 5,
         "minCount": 1,
         "maxCount": 1
@@ -149,22 +150,40 @@
         "maxCount": 8
       },
       {
-        "type": "minecraft:goat",
+        "type": "minecraft:pig",
         "weight": 10,
         "minCount": 8,
         "maxCount": 8
       },
       {
-        "type": "environmental:yak",
+        "type": "minecraft:chicken",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      },
+      {
+        "type": "minecraft:cow",
         "weight": 8,
         "minCount": 8,
         "maxCount": 8
       },
       {
-        "type": "minecraft:fox",
+        "type": "minecraft:wolf",
+        "weight": 8,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:rabbit",
         "weight": 4,
-        "minCount": 5,
-        "maxCount": 5
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:fox",
+        "weight": 8,
+        "minCount": 2,
+        "maxCount": 4
       }
     ],
     "ambient": [
@@ -191,8 +210,7 @@
   "spawn_costs": {},
   "player_spawn_friendly": true,
   "precipitation": "rain",
-  "temperature": 0.14,
-  "temperature_modifier": "frozen",
-  "downfall": 0,
-  "category": "plains"
+  "temperature": 0.4,
+  "downfall": 0.8,
+  "category": "taiga"
 }
