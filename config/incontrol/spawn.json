@@ -42,6 +42,17 @@
     "result": "deny"
   },
   {
+    "mob": "ecologics:penguin",
+    "biome": ["minecraft:frozen_ocean","minecraft:snowy_plains"],
+    "incontrol": true,
+    "result": "allow"
+  },
+  {
+    "mob": "ecologics:penguin",
+    "incontrol": true,
+    "result": "deny"
+  },
+  {
     "mob": "alexsmobs:raccoon",
     "biome": ["minecraft:birch_forest","minecraft:old_growth_birch_forest","terralith:lavender_forest","terralith:lavender_valley","terralith:birch_taiga"],
     "result": "allow"

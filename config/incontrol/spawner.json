@@ -30,10 +30,25 @@
     }
   },
   {
-    "mob": "anuffles:snuffle",
+    "mob": "snuffles:snuffle",
     "persecond": 0.1,
     "amount": {
       "minimum": 2,
+      "maximum": 5,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 45,
+      "maxheight": 175,
+      "maxthis": 8
+    }
+  },
+  {
+    "mob": "ecologics:penguin",
+    "persecond": 0.2,
+    "amount": {
+      "minimum": 5,
       "maximum": 5,
       "groupdistance": 3
     },
