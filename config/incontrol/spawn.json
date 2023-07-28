@@ -115,7 +115,7 @@
   },
   {
     "mob": "neapolitan:chimpanzee",
-    "biome": ["minecraft:jungle","minecraft:bamboo_jungle","terralith:tropical_jungle","terralith:rocky_jungle"],
+    "biome": ["minecraft:jungle","minecraft:bamboo_jungle","terralith:tropical_jungle","terralith:rocky_jungle","terralith:jungle_mountains"],
     "result": "default"
   },
   {
