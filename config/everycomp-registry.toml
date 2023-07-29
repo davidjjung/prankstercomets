@@ -44,12 +44,6 @@
 		yellow_blossom = false
 		red_blossom = false
 
-	[leaves_type.newworld]
-		fir = true
-
-	[leaves_type.wildbackport]
-		mangrove = true
-
 	[leaves_type.upgrade_aquatic]
 		river = true
 
@@ -71,6 +65,12 @@
 		aspen = true
 		grimwood = true
 		flowering_morado = true
+
+	[leaves_type.wildbackport]
+		mangrove = true
+
+	[leaves_type.newworld]
+		fir = true
 
 [wood_type]
 
@@ -108,12 +108,6 @@
 	[wood_type.habitat]
 		fairy_ring_mushroom = false
 
-	[wood_type.newworld]
-		fir = true
-
-	[wood_type.wildbackport]
-		mangrove = true
-
 	[wood_type.upgrade_aquatic]
 		driftwood = true
 		river = true
@@ -133,4 +127,10 @@
 		kousa = true
 		aspen = true
 		grimwood = true
+
+	[wood_type.wildbackport]
+		mangrove = true
+
+	[wood_type.newworld]
+		fir = true
 

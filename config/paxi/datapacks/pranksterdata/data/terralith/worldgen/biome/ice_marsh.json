@@ -22,9 +22,7 @@
     ]
   },
   "features": [
-    [
-      "terralith:swamp/vanilla/swamp_detail"
-    ],
+    [],
     [
       "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
