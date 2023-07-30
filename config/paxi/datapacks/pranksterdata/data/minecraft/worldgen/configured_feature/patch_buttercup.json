@@ -9,9 +9,6 @@
         "config": {
           "to_place": {
             "state": {
-              "Properties": {
-                "half": "lower"
-              },
               "Name": "buzzier_bees:buttercup"
             },
             "type": "minecraft:simple_state_provider"
