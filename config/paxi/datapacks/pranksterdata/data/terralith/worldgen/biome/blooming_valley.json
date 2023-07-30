@@ -164,6 +164,12 @@
         "maxCount": 8
       },
       {
+        "type": "alexsmobs:flutter",
+        "weight": 2,
+        "minCount": 2,
+        "maxCount": 6
+      },
+      {
         "type": "minecraft:rabbit",
         "weight": 4,
         "minCount": 2,

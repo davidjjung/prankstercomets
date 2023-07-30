@@ -160,6 +160,12 @@
         "maxCount": 6
       },
       {
+        "type": "alexsmobs:flutter",
+        "weight": 2,
+        "minCount": 2,
+        "maxCount": 6
+      },
+      {
         "type": "minecraft:goat",
         "weight": 2,
         "minCount": 2,
