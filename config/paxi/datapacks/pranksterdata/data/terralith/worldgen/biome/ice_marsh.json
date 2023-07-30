@@ -7,7 +7,7 @@
       "offset": 2
     },
     "grass_color_modifier": "swamp",
-    "grass_color": 6983507,
+    "grass_color": 8035424,
     "sky_color": 10599601,
     "foliage_color": 7766861,
     "fog_color": 10660776,
@@ -18,7 +18,8 @@
     "air": [
       "minecraft:cave",
       "minecraft:cave_extra_underground",
-      "minecraft:canyon","terralith:deep_ravine"
+      "minecraft:canyon",
+      "terralith:deep_ravine"
     ]
   },
   "features": [

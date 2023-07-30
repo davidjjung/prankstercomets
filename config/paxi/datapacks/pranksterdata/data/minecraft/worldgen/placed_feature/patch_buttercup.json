@@ -2,15 +2,15 @@
   "feature": "minecraft:patch_buttercup",
   "placement": [
     {
-      "chance": 32,
-      "type": "minecraft:rarity_filter"
+      "type": "minecraft:rarity_filter",
+      "chance": 3
     },
     {
       "type": "minecraft:in_square"
     },
     {
-      "heightmap": "MOTION_BLOCKING",
-      "type": "minecraft:heightmap"
+      "type": "heightmap",
+      "heightmap": "MOTION_BLOCKING"
     },
     {
       "type": "minecraft:biome"

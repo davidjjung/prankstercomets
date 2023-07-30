@@ -48,8 +48,6 @@ to make editing this file much easier.
 	"autumnity:orange_maple_leaf_pile": "immersive_weathering:autumnity/orange_maple_leaf_pile",
 	"autumnity:maple_leaf_pile": "immersive_weathering:autumnity/maple_leaf_pile",
 	"autumnity:red_maple_leaf_pile": "immersive_weathering:autumnity/red_maple_leaf_pile",
-	"autumnity:yellow_maple_leaf_pile": "immersive_weathering:autumnity/yellow_maple_leaf_pile",
-	"minecraft:netherrack": "create:cut_crimsite",
-	"minecraft:crimson_nylium": "create:crimsite",
+	"autumnity:yellow_maple_leaf_pile": "immersive_weathering:autumnity/yellow_maple_leaf_pile"
 	}
 }

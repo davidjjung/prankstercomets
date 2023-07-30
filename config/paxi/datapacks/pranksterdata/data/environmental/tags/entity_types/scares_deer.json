@@ -1,0 +1,9 @@
+{
+  "values": [
+    "minecraft:player",
+    "minecraft:villager",
+    "naturalist:bear",
+    "minecraft:wandering_trader",
+    "#environmental:scares_trusting_deer"
+  ]
+}

@@ -1,13 +1,17 @@
 {
+  "type": "minecraft:random_patch",
   "config": {
-    "tries": 64,
-    "xz_spread": 6,
-    "y_spread": 2,
+    "tries": 96,
+    "xz_spread": 7,
+    "y_spread": 3,
     "feature": {
       "feature": {
         "config": {
           "to_place": {
             "state": {
+              "Properties": {
+                "half": "lower"
+              },
               "Name": "buzzier_bees:buttercup"
             },
             "type": "minecraft:simple_state_provider"
@@ -17,14 +21,15 @@
       },
       "placement": [
         {
+          "type": "minecraft:block_predicate_filter",
           "predicate": {
-            "blocks": "minecraft:air",
+            "blocks": [
+              "minecraft:air"
+            ],
             "type": "minecraft:matching_blocks"
-          },
-          "type": "minecraft:block_predicate_filter"
+          }
         }
       ]
     }
-  },
-  "type": "minecraft:flower"
+  }
 }
