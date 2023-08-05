@@ -17,7 +17,6 @@ onEvent('item.registry', event => {
 //                 level.getServerOrSomething().runCommandSilent(whatever I want)
                  if (entity.player) {
                      entity.minecraftPlayer.addItem(Item.of("minecraft:glass_bottle").itemStack)
-
                  }
                  return itemstack;
              })

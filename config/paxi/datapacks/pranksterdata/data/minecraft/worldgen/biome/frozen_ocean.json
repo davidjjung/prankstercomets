@@ -6,9 +6,9 @@
       "block_search_extent": 8,
       "offset": 2
     },
-    "sky_color": 8103167,
-    "fog_color": 12638463,
-    "water_color": 4159204,
+    "sky_color": 10858685,
+    "fog_color": 14145761,
+    "water_color": 3750089,
     "water_fog_color": 329011
   },
   "carvers": {
@@ -19,13 +19,14 @@
     ]
   },
   "features": [
-    [
-    ],
+    [],
     [
       "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
     ],
     [
+      "minecraft:iceberg_packed",
+      "minecraft:iceberg_blue",
       "minecraft:amethyst_geode",
       "terralith:cave/generic/mega_geode"
     ],
@@ -34,8 +35,7 @@
       "minecraft:monster_room_deep"
     ],
     [
-      "minecraft:sand_beaches",
-      "minecraft:patch_sand"
+      "minecraft:blue_ice"
     ],
     [],
     [
@@ -75,21 +75,15 @@
     ],
     [
       "minecraft:glow_lichen",
+      "minecraft:trees_water",
       "minecraft:flower_default",
       "minecraft:patch_grass_badlands",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
-      "minecraft:seagrass_normal",
-      "minecraft:seagrass_simple",
-      "minecraft:patch_sandy_shrub",
-      "farmersdelight:patch_wild_beetroots",
-      "upgrade_aquatic:driftwood_beach",
-      "upgrade_aquatic:patch_searocket",
-      "upgrade_aquatic:patch_flowering_rush",
-      "upgrade_aquatic:beachgrass_dunes",
-      "minecraft:kelp_dense"
+      "sparse_kelp_polar",
+      "ecologics:thin_ice_patch"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -154,22 +148,10 @@
     ],
     "creature": [
       {
-        "type": "alexsmobs:seagull",
-        "weight": 5,
-        "minCount": 3,
-        "maxCount": 3
-      },
-      {
-        "type": "naturalist:butterfly",
-        "weight": 5,
-        "minCount": 3,
-        "maxCount": 3
-      },
-      {
-        "type": "alexsmobs:seal",
-        "weight": 5,
-        "minCount": 3,
-        "maxCount": 3
+        "type": "minecraft:polar_bear",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 2
       }
     ],
     "ambient": [
@@ -195,28 +177,23 @@
         "weight": 1,
         "minCount": 1,
         "maxCount": 4
-      },
-      {
-        "type": "minecraft:dolphin",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 2
       }
     ],
     "water_ambient": [
       {
-        "type": "minecraft:cod",
-        "weight": 10,
-        "minCount": 3,
-        "maxCount": 6
+        "type": "minecraft:salmon",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 5
       }
     ],
     "misc": []
   },
   "spawn_costs": {},
   "player_spawn_friendly": false,
-  "precipitation": "rain",
-  "temperature": 0.5,
+  "precipitation": "snow",
+  "temperature": 0,
+  "temperature_modifier": "frozen",
   "downfall": 0.5,
   "category": "ocean"
 }

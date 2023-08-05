@@ -8,6 +8,7 @@
     },
     "sky_color": 8103167,
     "fog_color": 12638463,
+    "grass_color": 10731658,
     "water_color": 4020182,
     "water_fog_color": 329011
   },
@@ -87,7 +88,9 @@
       "upgrade_aquatic:patch_searocket",
       "upgrade_aquatic:patch_flowering_rush",
       "upgrade_aquatic:beachgrass_dunes",
-      "minecraft:kelp_cold"
+      "minecraft:kelp_cold",
+      "minecraft:kelp_polar",
+      "environmental:flower_cartwheel"
     ],
     [
       "minecraft:freeze_top_layer"
