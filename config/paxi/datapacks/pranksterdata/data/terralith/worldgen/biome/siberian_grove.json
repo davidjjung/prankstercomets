@@ -6,10 +6,10 @@
       "block_search_extent": 8,
       "offset": 2
     },
-    "grass_color": 6853735,
+    "grass_color": 5079903,
     "sky_color": 10858685,
     "fog_color": 14145761,
-    "foliage_color": 10205248,
+    "foliage_color": 10206569,
     "water_color": 6388624,
     "water_fog_color": 2302743
   },
@@ -87,7 +87,8 @@
       "minecraft:patch_berry_common"
     ],
     [
-      "minecraft:freeze_top_layer"
+      "minecraft:freeze_top_layer",
+      "terralith:mountains/scarlet/remove_some_snow"
     ]
   ],
   "spawners": {
@@ -143,32 +144,44 @@
     ],
     "creature": [
       {
+        "type": "minecraft:sheep",
+        "weight": 12,
+        "minCount": 8,
+        "maxCount": 8
+      },
+      {
+        "type": "minecraft:pig",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      },
+      {
         "type": "minecraft:chicken",
         "weight": 10,
         "minCount": 8,
         "maxCount": 8
       },
       {
-        "type": "environmental:yak",
+        "type": "minecraft:cow",
         "weight": 8,
         "minCount": 8,
         "maxCount": 8
       },
       {
         "type": "minecraft:wolf",
-        "weight": 4,
+        "weight": 8,
         "minCount": 4,
         "maxCount": 4
       },
       {
         "type": "minecraft:rabbit",
-        "weight": 8,
+        "weight": 4,
         "minCount": 2,
         "maxCount": 3
       },
       {
         "type": "minecraft:fox",
-        "weight": 4,
+        "weight": 8,
         "minCount": 2,
         "maxCount": 4
       }
@@ -197,8 +210,8 @@
   "spawn_costs": {},
   "player_spawn_friendly": true,
   "precipitation": "rain",
-  "temperature": 0.3,
+  "temperature": 0.23,
   "temperature_modifier":"frozen",
-  "downfall": 1.2,
+  "downfall": 0.8,
   "category": "taiga"
 }
