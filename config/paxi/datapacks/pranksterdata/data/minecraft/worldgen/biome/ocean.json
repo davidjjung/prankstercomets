@@ -89,7 +89,8 @@
       "upgrade_aquatic:patch_searocket",
       "upgrade_aquatic:patch_flowering_rush",
       "upgrade_aquatic:beachgrass_dunes",
-      "minecraft:kelp_dense"
+      "minecraft:kelp_dense",
+      "moyai:beach_moyai"
     ],
     [
       "minecraft:freeze_top_layer"

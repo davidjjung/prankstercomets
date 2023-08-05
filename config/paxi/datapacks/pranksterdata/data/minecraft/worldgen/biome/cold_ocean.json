@@ -90,7 +90,8 @@
       "upgrade_aquatic:beachgrass_dunes",
       "minecraft:kelp_cold",
       "minecraft:kelp_polar",
-      "environmental:flower_cartwheel"
+      "environmental:flower_cartwheel",
+      "moyai:beach_moyai"
     ],
     [
       "minecraft:freeze_top_layer"

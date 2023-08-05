@@ -80,7 +80,8 @@
       "minecraft:patch_pumpkin",
       "minecraft:seagrass_warm",
       "minecraft:kelp_warm",
-      "minecraft:kelp_ochre"
+      "minecraft:kelp_ochre",
+      "moyai:beach_moyai"
     ],
     [
       "minecraft:freeze_top_layer"
