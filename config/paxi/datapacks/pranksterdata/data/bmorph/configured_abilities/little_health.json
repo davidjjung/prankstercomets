@@ -1,0 +1,10 @@
+{
+  "ability": "bmorph:attribute_modifier",
+  "config":
+  {
+    "attribute": "minecraft:generic.max_health",
+    "operation": "multiply_base",
+    "name": "Very Little Health",
+    "amount": -0.2
+  }
+}

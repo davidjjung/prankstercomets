@@ -1,0 +1,15 @@
+{
+  "entity_type": "minecraft:elder_guardian",
+  "grant":
+  [
+    "bmorph:elder_guardian_laser",
+    "bmorph:water_breathing",
+    "bmorph:water_sanic",
+    "bmorph:elder_guardian_jumpscare",
+    "bmorph:disable_elder_guardian"
+  ],
+  "revoke":
+  [
+
+  ]
+}

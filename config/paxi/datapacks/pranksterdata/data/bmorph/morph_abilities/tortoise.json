@@ -1,0 +1,13 @@
+{
+  "entity_type": "sullymod:tortoise",
+  "grant":
+  [
+    "bmorph:tortoise_kb",
+    "bmorph:tortoise_armor",
+    "bmorph:speed_changes/extreme_slowness"
+  ],
+  "revoke":
+  [
+
+  ]
+}

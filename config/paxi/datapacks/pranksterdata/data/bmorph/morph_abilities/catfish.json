@@ -1,0 +1,11 @@
+{
+  "entity_type": "alexsmobs:catfish",
+  "grant":
+  [
+    "#bmorph:normal_fish"
+  ],
+  "revoke":
+  [
+
+  ]
+}

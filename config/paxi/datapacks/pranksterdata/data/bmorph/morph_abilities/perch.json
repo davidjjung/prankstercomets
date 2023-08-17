@@ -1,0 +1,11 @@
+{
+  "entity_type": "upgrade_aquatic:perch",
+  "grant":
+  [
+    "#bmorph:normal_fish"
+  ],
+  "revoke":
+  [
+
+  ]
+}

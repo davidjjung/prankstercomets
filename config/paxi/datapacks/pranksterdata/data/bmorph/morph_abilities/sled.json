@@ -1,0 +1,13 @@
+{
+  "entity_type": "snowy_spirit:sled",
+  "grant":
+  [
+    "#bmorph:speed_changes/slowness",
+    "bmorph:half_health",
+    "bmorph:walk_on_powder_snow"
+  ],
+  "revoke":
+  [
+
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "entity_type": "alexsmobs:sunbird",
+  "grant":
+  [
+    "bmorph:flying",
+    "bmorph:fire_blaze",
+    "#bmorph:fire_immunity",
+    "bmorph:sunbird_curse_on_hit",
+    "bmorph:disable_sunbird"
+  ],
+  "revoke":
+  [
+
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "entity_type": "creeperoverhaul:jungle_creeper",
+  "grant":
+  [
+    "bmorph:boom"
+  ],
+  "revoke":
+  [
+
+  ]
+}

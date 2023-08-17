@@ -1,0 +1,12 @@
+{
+  "entity_type": "autumnity:turkey",
+  "grant":
+  [
+    "bmorph:slowfall",
+    "bmorph:turkey_egg_yeet"
+  ],
+  "revoke":
+  [
+
+  ]
+}

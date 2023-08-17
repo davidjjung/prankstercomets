@@ -1,0 +1,14 @@
+{
+  "entity_type": "minecraft:husk",
+  "grant":
+  [
+    "bmorph:infect_villagers",
+    "bmorph:transformations/turn_to_zombie_as_husk",
+    "bmorph:water_breathing",
+    "bmorph:hunger_on_hit"
+  ],
+  "revoke":
+  [
+
+  ]
+}

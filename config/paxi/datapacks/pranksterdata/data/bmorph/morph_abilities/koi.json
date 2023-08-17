@@ -1,0 +1,11 @@
+{
+  "entity_type": "environmental:koi",
+  "grant":
+  [
+    "#bmorph:normal_fish"
+  ],
+  "revoke":
+  [
+
+  ]
+}

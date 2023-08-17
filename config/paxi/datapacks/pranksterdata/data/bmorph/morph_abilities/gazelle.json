@@ -1,0 +1,11 @@
+{
+  "entity_type": "alexsmobs:gazelle",
+  "grant":
+  [
+    "#bmorph:speed_changes/extreme_swiftness"
+  ],
+  "revoke":
+  [
+
+  ]
+}

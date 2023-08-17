@@ -1,0 +1,10 @@
+{
+  "ability": "bmorph:attribute_modifier",
+  "config":
+  {
+    "attribute": "forge:swim_speed",
+    "operation": "multiply_base",
+    "name": "Slightly Faster Swimming",
+    "amount": 1.5
+  }
+}

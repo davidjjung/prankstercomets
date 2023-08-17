@@ -1,0 +1,11 @@
+{
+  "entity_type": "mannequins:mannequin",
+  "grant":
+  [
+    "bmorph:half_health"
+  ],
+  "revoke":
+  [
+
+  ]
+}

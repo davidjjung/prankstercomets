@@ -1,0 +1,12 @@
+{
+  "entity_type": "minecraft:minecart",
+  "grant":
+  [
+    "#bmorph:speed_changes/slight_slowness",
+    "bmorph:half_health"
+  ],
+  "revoke":
+  [
+
+  ]
+}

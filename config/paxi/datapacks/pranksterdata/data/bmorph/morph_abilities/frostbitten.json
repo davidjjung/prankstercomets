@@ -1,0 +1,15 @@
+{
+    "entity_type": "rottencreatures:frostbitten",
+    "grant":
+    [
+        "bmorph:infect_villagers",
+        "bmorph:transformations/turn_to_zombie_as_frostbitten",
+        "bmorph:water_breathing",
+        "bmorph:freeze_on_hit",
+        "bmorph:no_freezing"
+    ],
+    "revoke":
+    [
+
+    ]
+}

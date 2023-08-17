@@ -1,0 +1,13 @@
+{
+  "entity_type": "environmental:deer",
+  "grant":
+  [
+    "#bmorph:speed_changes/swiftness",
+    "bmorph:higher_insta_jump",
+    "bmorph:leaf_pile_passthrough"
+  ],
+  "revoke":
+  [
+
+  ]
+}

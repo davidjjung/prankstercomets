@@ -31,7 +31,7 @@
 	#Range: 0 ~ 1000
 	penguinSpawnWeight = 2
 	#Generate thin ice patches in icy biomes
-	generateThinIcePatches = false
+	generateThinIcePatches = true
 	#Thin ice patch count. Higher number = more frequent.
 	#Range: 0 ~ 256
 	thinIcePatchCount = 15
@@ -51,5 +51,5 @@
 	#Vanilla Azalea trees will have azalea logs instead of oak logs
 	replaceAzaleaTree = true
 	#Generate surface moss in lush cave biomes
-	generateSurfaceMoss = false
+	generateSurfaceMoss = true
 

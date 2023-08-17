@@ -1,0 +1,14 @@
+{
+  "entity_type": "ecologics:squirrel",
+  "grant":
+  [
+    "bmorph:no_fall_damage",
+    "#bmorph:speed_changes/swiftness",
+    "bmorph:walk_on_powder_snow",
+    "bmorph:leaf_pile_passthrough"
+  ],
+  "revoke":
+  [
+
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "entity_type": "creeperoverhaul:badlands_creeper",
+  "grant":
+  [
+    "bmorph:boom"
+  ],
+  "revoke":
+  [
+
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "entity_type": "naturalist:caterpillar",
+  "grant":
+  [
+    "#bmorph:speed_changes/slowness",
+    "bmorph:walk_on_powder_snow"
+  ],
+  "revoke":
+  [
+
+  ]
+}

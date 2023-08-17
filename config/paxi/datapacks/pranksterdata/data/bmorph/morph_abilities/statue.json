@@ -1,0 +1,11 @@
+{
+  "entity_type": "mannequins:statue",
+  "grant":
+  [
+    "#bmorph:speed_changes/slowness"
+  ],
+  "revoke":
+  [
+
+  ]
+}

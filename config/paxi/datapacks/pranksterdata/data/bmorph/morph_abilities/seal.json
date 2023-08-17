@@ -1,0 +1,13 @@
+{
+  "entity_type": "alexsmobs:hippo",
+  "grant":
+  [
+    "bmorph:hippo_swim",
+    "bmorph:water_breathing",
+    "#bmorph:speed_changes/slowness"
+  ],
+  "revoke":
+  [
+
+  ]
+}

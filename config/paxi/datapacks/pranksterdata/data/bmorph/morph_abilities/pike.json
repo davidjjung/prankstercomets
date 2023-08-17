@@ -1,0 +1,11 @@
+{
+  "entity_type": "upgrade_aquatic:pike",
+  "grant":
+  [
+    "#bmorph:normal_fish"
+  ],
+  "revoke":
+  [
+
+  ]
+}

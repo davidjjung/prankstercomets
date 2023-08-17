@@ -1,0 +1,11 @@
+{
+  "entity_type": "dummmmmmy:target_dummy",
+  "grant":
+  [
+    "bmorph:half_health"
+  ],
+  "revoke":
+  [
+
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "entity_type": "creeperoverhaul:mushroom_creeper",
+  "grant":
+  [
+    "bmorph:boom"
+  ],
+  "revoke":
+  [
+
+  ]
+}

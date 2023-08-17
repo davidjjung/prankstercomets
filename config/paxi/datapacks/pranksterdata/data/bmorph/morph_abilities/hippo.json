@@ -1,0 +1,13 @@
+{
+  "entity_type": "naturalist:hippo",
+  "grant":
+  [
+    "bmorph:hippo_damage",
+    "bmorph:hippo_swim",
+    "#bmorph:speed_changes/slight_slowness"
+  ],
+  "revoke":
+  [
+
+  ]
+}
