@@ -9,6 +9,10 @@
     "result": "deny"
   },
   {
+    "mob": "alexsmobs:elephant",
+    "result": "deny"
+  },
+  {
     "mob": "snowpig:snow_pig",
     "biome": ["terralith:snowy_maple_forest","minecraft:snowy_slopes","minecraft:snowy_plains"],
     "incontrol": true,
