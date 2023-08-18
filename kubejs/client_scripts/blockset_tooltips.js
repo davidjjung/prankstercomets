@@ -171,7 +171,7 @@ onEvent('item.tooltip', tooltip => {
   'everycomp:q/ecologics/flowering_azalea_chest','everycomp:q/wildbackport/mangrove_chest','autumnity:maple_chest',
   'upgrade_aquatic:driftwood_chest','upgrade_aquatic:river_chest','atmospheric:rosewood_chest', 'atmospheric:morado_chest',
   'atmospheric:yucca_chest', 'atmospheric:kousa_chest', 'atmospheric:aspen_chest', 'atmospheric:grimwood_chest',
-  'environmental:cherry_chest', 'environmental:wisteria_chest', 'environmental:willow_chest']
+  'environmental:cherry_chest', 'environmental:wisteria_chest', 'environmental:willow_chest','quark:nether_brick_chest']
   etcStorages.forEach( id => {
     tooltip.addAdvanced(id, (item, advanced, text) => {
       text.add(1, Text.darkGray('Alt: Trapped').italic(true))

@@ -77,7 +77,6 @@
       "minecraft:patch_tall_grass",
       "minecraft:patch_dead_bush",
       "terralith:highlands/arid/bushes",
-      "environmental:flower_hibiscus_warm",
       "environmental:patch_tall_dead_bush",
       "supplementaries:wild_flax",
       "minecraft:patch_grass_savanna",
@@ -117,7 +116,7 @@
         "maxCount": 4
       },
       {
-        "type": "creeperoverhaul:savanna_creeper",
+        "type": "creeperoverhaul:savannah_creeper",
         "weight": 100,
         "minCount": 4,
         "maxCount": 4

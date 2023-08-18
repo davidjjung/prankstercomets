@@ -2,7 +2,7 @@
   "ability": "bmorph:shoot_projectile",
   "config":
   {
-    "projectile_entity": "autumnity:turkey_egg",
+    "projectile_entity": "minecraft:egg",
     "stun": 300,
     "motion": 1.5,
     "audiovisual_effect":

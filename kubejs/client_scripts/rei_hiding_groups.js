@@ -144,7 +144,11 @@ onEvent('rei.hide.items', event => {
 'everycomp:q/twigs/bamboo_trapped_chest','everycomp:q/newworld/fir_trapped_chest',
 'everycomp:q/ecologics/walnut_trapped_chest','everycomp:q/ecologics/coconut_trapped_chest',
 'everycomp:q/ecologics/flowering_azalea_trapped_chest','everycomp:q/wildbackport/mangrove_trapped_chest',
-'autumnity:maple_trapped_chest','upgrade_aquatic:driftwood_trapped_chest','upgrade_aquatic:river_trapped_chest']
+'autumnity:maple_trapped_chest','upgrade_aquatic:driftwood_trapped_chest','upgrade_aquatic:river_trapped_chest',
+'atmospheric:rosewood_trapped_chest','atmospheric:morado_trapped_chest','atmospheric:yucca_trapped_chest',
+'atmospheric:kousa_trapped_chest','atmospheric:aspen_trapped_chest','atmospheric:grimwood_trapped_chest',
+'quark:nether_brick_chest'
+]
 
   const dd = ['dustrial_decor:mini_padded_slab','dustrial_decor:mini_padded_stairs',
   'dustrial_decor:bolted_industrial_iron_slab','dustrial_decor:bolted_industrial_iron_stairs',

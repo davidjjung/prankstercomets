@@ -131,7 +131,24 @@ onEvent('rei.hide.items', event => {
   'atmospheric:large_morado_boat', 'atmospheric:large_grimwood_boat', 'atmospheric:large_aspen_boat',
   'create:bar_of_chocolate','create_central_kitchen:honey_cake_slice','create_central_kitchen:chocolate_cake_slice',
   'create_central_kitchen:passionfruit_cake_slice','create_central_kitchen:aloe_cake_slice','create_central_kitchen:yucca_cake_slice',
-  'create_central_kitchen:pumpkin_cake_slice','create_central_kitchen:sweet_berry_cake_slice'
+  'create_central_kitchen:pumpkin_cake_slice','create_central_kitchen:sweet_berry_cake_slice','environmental:blue_wisteria_leaf_pile',
+  'environmental:white_wisteria_leaf_pile','environmental:pink_wisteria_leaf_pile','environmental:purple_wisteria_leaf_pile',
+  'environmental:willow_leaf_pile','atmospheric:rosewood_leaf_pile','atmospheric:morado_leaf_pile','atmospheric:flowering_morado_leaf_pile',
+  'atmospheric:yucca_leaf_pile','atmospheric:kousa_leaf_pile','atmospheric:aspen_leaf_pile','atmospheric:grimwood_leaf_pile',
+  'autumnity:maple_leaf_pile','autumnity:red_maple_leaf_pile','autumnity:orange_maple_leaf_pile','autumnity:yellow_maple_leaf_pile',
+  'autumnity:maple_leaf_carpet','autumnity:red_maple_leaf_carpet','autumnity:orange_maple_leaf_carpet','autumnity:yellow_maple_leaf_carpet',
+  'upgrade_aquatic:river_leaf_pile','upgrade_aquatic:river_leaf_carpet',"woodworks:oak_boards","woodworks:spruce_boards","woodworks:birch_boards",
+  "woodworks:jungle_boards","woodworks:acacia_boards","woodworks:dark_oak_boards","woodworks:crimson_boards","woodworks:warped_boards",
+  "woodworks:oak_leaf_pile","woodworks:spruce_leaf_pile","woodworks:birch_leaf_pile","woodworks:jungle_leaf_pile","woodworks:acacia_leaf_pile",
+  "woodworks:dark_oak_leaf_pile","woodworks:azalea_leaf_pile","woodworks:flowering_azalea_leaf_pile","woodworks:spruce_bookshelf",
+  "woodworks:birch_bookshelf","woodworks:jungle_bookshelf","woodworks:acacia_bookshelf","woodworks:dark_oak_bookshelf","woodworks:crimson_bookshelf",
+  "woodworks:warped_bookshelf","woodworks:spruce_ladder","woodworks:birch_ladder","woodworks:jungle_ladder","woodworks:acacia_ladder",
+  "woodworks:dark_oak_ladder","woodworks:crimson_ladder","woodworks:warped_ladder","woodworks:spruce_beehive","woodworks:birch_beehive",
+  "woodworks:jungle_beehive","woodworks:acacia_beehive","woodworks:dark_oak_beehive","woodworks:crimson_beehive","woodworks:warped_beehive",
+  "woodworks:oak_chest","woodworks:spruce_chest","woodworks:birch_chest","woodworks:jungle_chest","woodworks:acacia_chest",
+  "woodworks:dark_oak_chest","woodworks:crimson_chest","woodworks:warped_chest","woodworks:oak_trapped_chest","woodworks:spruce_trapped_chest",
+  "woodworks:birch_trapped_chest","woodworks:jungle_trapped_chest","woodworks:acacia_trapped_chest","woodworks:dark_oak_trapped_chest",
+  "woodworks:crimson_trapped_chest","woodworks:warped_trapped_chest"
   ]
   whatever.forEach(item => {
     event.hide(item)

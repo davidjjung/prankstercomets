@@ -1,11 +1,10 @@
 {
-  "entity_type": "ecologics:squirrel",
+  "entity_type": "minecraft:rabbit",
   "grant":
   [
     "bmorph:no_fall_damage",
     "#bmorph:speed_changes/slight_swiftness",
-    "bmorph:walk_on_powder_snow",
-    "bmorph:leaf_pile_passthrough"
+    "bmorph:walk_on_powder_snow"
   ],
   "revoke":
   [
