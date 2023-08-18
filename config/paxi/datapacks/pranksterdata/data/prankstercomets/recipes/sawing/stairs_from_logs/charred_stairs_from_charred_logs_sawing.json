@@ -12,7 +12,7 @@
         "type": "woodworks:sawmill",
         "count": 4,
         "ingredient": {
-          "tag": "immersive_weathering:charred_logs"
+          "item": "immersive_weathering:charred_log"
         },
         "result": "immersive_weathering:charred_stairs"
       }
