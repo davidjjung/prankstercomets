@@ -87,7 +87,7 @@ onEvent('rei.hide.items', event => {
   'alexsmobs:bear_dust','/alexsmobs:roadrunner.*/','alexsmobs:mosquito_proboscis','alexsmobs:gazelle_horn','alexsmobs:shark_tooth',
   'alexsmobs:shark_tooth_arrow','/alexsmobs:komodo.*/','alexsmobs:poison_bottle','alexsmobs:centipede_leggings',
   '/alexsmobs:.*moose_.*/','alexsmobs:shrimp_fried_rice','alexsmobs:dropbear_claw','alexsmobs:cosmic_cod',
-  'alexsmobs:mimic_octopus_bucket','alexsmobs:cosmic_cod_bucket','alexsmobs:lost_tentacle','alexsmobs:leafcutter_ant_pupa',
+  'alexsmobs:mimic_octopus_bucket','alexsmobs:cosmic_cod_bucket','alexsmobs:leafcutter_ant_pupa',
   'alexsmobs:serrated_shark_tooth','/alexsmobs:.*locator/','alexsmobs:ambergris',
   'alexsmobs:froststalker_helmet','alexsmobs:pigshoes','alexsmobs:bison_fur','/alexsmobs:.*skelewag.*/','alexsmobs:fish_bones',
   'alexsmobs:acacia_blossom','/alexsmobs:void_worm.*/','alexsmobs:frilled_shark_bucket','alexsmobs:skelewag_sword_inventory',

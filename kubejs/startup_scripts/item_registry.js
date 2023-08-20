@@ -38,7 +38,7 @@ onEvent("morejs.potion_brewing.register", (event) => {
     event.addCustomBrewing("ecologics:seashell", "foolish_asteroids:mundane_elixir", "foolish_asteroids:triturated_elixir");
 
     event.addCustomBrewing("kubejs:ekanite_grit", "foolish_asteroids:awkward_elixir", "foolish_asteroids:atomized_elixir");
-    event.addCustomBrewing("immersive_weathering:ivy", "foolish_asteroids:awkward_elixir", "foolish_asteroids:boundless_elixir");
+    event.addCustomBrewing("alexsmobs:flying_fish", "foolish_asteroids:awkward_elixir", "foolish_asteroids:boundless_elixir");
     event.addCustomBrewing("environmental:mud_ball", "foolish_asteroids:awkward_elixir", "foolish_asteroids:claustrophilic_elixir");
     event.addCustomBrewing("galosphere:allurite_shard", "foolish_asteroids:awkward_elixir", "foolish_asteroids:dilatory_elixir");
     event.addCustomBrewing("habitat:kabloom_fruit", "foolish_asteroids:awkward_elixir", "foolish_asteroids:endemic_elixir");
@@ -51,7 +51,7 @@ onEvent("morejs.potion_brewing.register", (event) => {
     event.addCustomBrewing("neapolitan:magic_beans", "foolish_asteroids:awkward_elixir", "foolish_asteroids:vainglorious_elixir");
 
     event.addCustomBrewing("immersive_weathering:ivy", "foolish_asteroids:turbulent_elixir", "foolish_asteroids:benevolent_elixir");
-    event.addCustomBrewing("minecraft:feather", "foolish_asteroids:turbulent_elixir", "foolish_asteroids:empyrean_elixir");
+    event.addCustomBrewing("ecologics:penguin_feather", "foolish_asteroids:turbulent_elixir", "foolish_asteroids:empyrean_elixir");
     event.addCustomBrewing("architects_palette:entwine_rod", "foolish_asteroids:turbulent_elixir", "foolish_asteroids:freaky_elixir");
     event.addCustomBrewing("alexsmobs:lost_tentacle", "foolish_asteroids:turbulent_elixir", "foolish_asteroids:garrulous_elixir");
     event.addCustomBrewing("alexsmobs:rainbow_jelly", "foolish_asteroids:turbulent_elixir", "foolish_asteroids:indomitable_elixir");
