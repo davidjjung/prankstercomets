@@ -23,7 +23,7 @@
           "ingredient": {
             "item": "twigs:stripped_bamboo_planks"
           },
-          "result": "everycomp:q/twigs/stripped_bamboo_ladder"
+          "result": "everycomp:q/twigs/bamboo_ladder"
         }
       }
     ]
