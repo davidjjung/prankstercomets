@@ -21,7 +21,7 @@
           "type": "woodworks:sawmill",
           "count": 4,
           "ingredient": {
-            "item": "ecologics:coconut_log"
+            "tag": "ecologics:coconut_logs"
           },
           "result": "everycomp:q/ecologics/coconut_ladder"
         }
