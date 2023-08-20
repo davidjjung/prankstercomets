@@ -21,7 +21,7 @@
           "type": "woodworks:sawmill",
           "count": 4,
           "ingredient": {
-            "item": "wildbackport:mangrove_planks"
+            "item": "wildbackport:mangrove_logs"
           },
           "result": "everycomp:q/wildbackport/mangrove_ladder"
         }

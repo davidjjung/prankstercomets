@@ -21,7 +21,7 @@
           "type": "woodworks:sawmill",
           "count": 4,
           "ingredient": {
-            "item": "twigs:stripped_bamboo_planks"
+            "item": "twigs:stripped_bamboo_logs"
           },
           "result": "everycomp:q/twigs/stripped_bamboo_ladder"
         }
