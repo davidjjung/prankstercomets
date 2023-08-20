@@ -7,6 +7,7 @@ onEvent('item.registry', event => {
       event.create('monazite_grout')
       event.create('heliodor_glint')
       event.create('grave_moss')
+      event.create('caterpillar')
 })
 
 onEvent('block.registry', event => {
@@ -17,6 +18,8 @@ onEvent('block.registry', event => {
 onEvent("morejs.potion_brewing.register", (event) => {
     event.removeByPotion(null, "minecraft:amethyst_shard", null);
     event.removeByPotion(null, null, "recallpotion:recall_potion");
+    event.removeByPotion(null, null, "naturalist:glowing");
+    event.removeByPotion(null, null, "naturalist:long_glowing");
     event.addPotionBrewing("wildbackport:echo_shard", "minecraft:awkward", "recallpotion:recall_potion");
 
     // Elixirs. Remember: sequence is brewing catalyst, container, and result
