@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "architects_palette:heliodor_rod"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:heliodor_glint",
+      "count": 2
+    },
+    {
+      "item": "kubejs:heliodor_glint",
+      "chance": 0.1
+    }
+  ],
+  "processingTime": 150
+}

@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "architects_palette:ekanite_rod"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:ekanite_grit",
+      "count": 2
+    },
+    {
+      "item": "kubejs:ekanite_grit",
+      "chance": 0.1
+    }
+  ],
+  "processingTime": 150
+}

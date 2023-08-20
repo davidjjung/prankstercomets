@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "architects_palette:monazite_rod"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:monazite_grout",
+      "count": 2
+    },
+    {
+      "item": "kubejs:monazite_grout",
+      "chance": 0.1
+    }
+  ],
+  "processingTime": 150
+}
