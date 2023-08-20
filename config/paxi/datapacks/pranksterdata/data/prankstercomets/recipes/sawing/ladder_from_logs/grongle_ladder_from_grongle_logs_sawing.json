@@ -21,7 +21,7 @@
           "type": "woodworks:sawmill",
           "count": 4,
           "ingredient": {
-            "item": "undergarden:grongle_planks"
+            "item": "undergarden:grongle_log"
           },
           "result": "everycomp:q/undergarden/grongle_ladder"
         }
