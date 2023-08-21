@@ -21,7 +21,7 @@
           "type": "woodworks:sawmill",
           "count": 4,
           "ingredient": {
-            "item": "newworld:fir_planks"
+            "item": "newworld:fir_logs"
           },
           "result": "everycomp:q/newworld/fir_ladder"
         }

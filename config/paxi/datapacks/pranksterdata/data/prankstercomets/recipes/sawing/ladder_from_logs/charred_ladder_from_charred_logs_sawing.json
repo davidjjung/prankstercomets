@@ -21,7 +21,7 @@
           "type": "woodworks:sawmill",
           "count": 4,
           "ingredient": {
-            "item": "immersive_weathering:charred_planks"
+            "item": "immersive_weathering:charred_logs"
           },
           "result": "everycomp:q/immersive_weathering/charred_ladder"
         }
