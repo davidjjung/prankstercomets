@@ -421,6 +421,9 @@ onEvent('rei.hide.items', event => {
     event.hide(Item.of('supplementaries:bamboo_spikes_tipped', item))
   })
 
+  event.hide(Item.of('apotheosis:potion_charm', '{Damage:0,Potion:"alexsmobs:bug_pheromones"}'))
+  event.hide(Item.of('apotheosis:potion_charm', '{Damage:0,Potion:"alexsmobs:long_bug_pheromones"}'))
+
 })
 
 onEvent('rei.remove.categories', event => {
