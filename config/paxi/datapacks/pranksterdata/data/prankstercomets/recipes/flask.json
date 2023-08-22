@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I I",
+    " I "
+  ],
+  "key": {
+    "I": {
+      "item": "undergarden:sediment_glass"
+    }
+  },
+  "result": {
+    "item": "foolish_asteroids:flask",
+    "count": 3
+  }
+}
