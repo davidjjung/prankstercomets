@@ -1,17 +1,17 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "tag": "autumnity:turkey_food"
+    "tag": "foolish_asteroids:comet_medal"
   },
   "transitionalItem": {
-    "item": "create:incomplete_track"
+    "item": "foolish_asteroids:incomplete_blank_medallion"
   },
   "sequence": [
     {
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "minecraft:glow_ink_sac"
+          "item": "foolish_asteroids:incomplete_blank_medallion"
         },
         [
           {
@@ -21,7 +21,7 @@
       ],
       "results": [
         {
-          "item": "minecraft:glow_ink_sac"
+          "item": "foolish_asteroids:incomplete_blank_medallion"
         }
       ]
     },
@@ -29,7 +29,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "minecraft:glow_ink_sac"
+          "item": "foolish_asteroids:incomplete_blank_medallion"
         },
         [
           {
@@ -39,7 +39,7 @@
       ],
       "results": [
         {
-          "item": "minecraft:glow_ink_sac"
+          "item": "foolish_asteroids:incomplete_blank_medallion"
         }
       ]
     },
@@ -47,7 +47,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "minecraft:glow_ink_sac"
+          "item": "foolish_asteroids:incomplete_blank_medallion"
         },
         [
           {
@@ -57,7 +57,7 @@
       ],
       "results": [
         {
-          "item": "minecraft:glow_ink_sac"
+          "item": "foolish_asteroids:incomplete_blank_medallion"
         }
       ]
     }
