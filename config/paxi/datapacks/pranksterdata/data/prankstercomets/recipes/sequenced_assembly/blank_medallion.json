@@ -1,7 +1,7 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "tag": "foolish_asteroids:comet_medal"
+    "item": "foolish_asteroids:comet_medal"
   },
   "transitionalItem": {
     "item": "foolish_asteroids:incomplete_blank_medallion"
@@ -51,7 +51,7 @@
         },
         [
           {
-            "item": "dustrial_decor:industrial_iron_billet"
+            "item": "architects_palette:nether_brass_ingot"
           }
         ]
       ],

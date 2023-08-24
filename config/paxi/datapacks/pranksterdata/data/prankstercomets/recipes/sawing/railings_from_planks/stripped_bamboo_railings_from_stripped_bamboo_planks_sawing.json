@@ -14,7 +14,7 @@
           "ingredient": {
             "item": "twigs:stripped_bamboo_planks"
           },
-          "result": "everycomp:ap/twigs/stripped_bamboo_railing"
+          "result": "everycomp:ap/twigs/bamboo_railing"
         }
       }
     ]
