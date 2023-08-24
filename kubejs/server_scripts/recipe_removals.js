@@ -35,6 +35,7 @@ onEvent('recipes', event => {
   event.remove({id: 'everycomp:fd/autumnity/maple_cabinet'})
   event.remove({output: '/architects_palette:.*board_.*/'})
   event.remove({input: 'create:wheat_flour'})
+  event.remove({id: 'quark:building/crafting/iron_ladder'})
 
   const ap = ['architects_palette:oak_board_slab','architects_palette:spruce_board_slab','architects_palette:birch_board_slab',
   'architects_palette:jungle_board_slab','architects_palette:acacia_board_slab','architects_palette:dark_oak_board_slab',

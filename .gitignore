@@ -50,6 +50,6 @@ config/biometweaker/
 config/quark_emotes
 config/cristellib
 /config/biomespawnpoint/spawnbiomes.txt
-config/roughlyenoughitems/pinyin.properties
-config/roughlyenoughitems/pinyin_double.properties
-config/registryDump.txt
+/config/roughlyenoughitems/pinyin.properties
+/config/roughlyenoughitems/pinyin_double.properties
+/config/registryDump.txt
