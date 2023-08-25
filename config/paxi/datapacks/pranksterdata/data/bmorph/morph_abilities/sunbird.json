@@ -2,7 +2,7 @@
   "entity_type": "alexsmobs:sunbird",
   "grant":
   [
-    "bmorph:flying",
+    "bmorph:fast_flying",
     "bmorph:fire_blaze",
     "#bmorph:fire_immunity",
     "bmorph:sunbird_curse_on_hit",
