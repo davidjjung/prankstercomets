@@ -1,0 +1,71 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "foolish_asteroids:barnyard_emblem"
+  },
+  "transitionalItem": {
+    "item": "foolish_asteroids:unfinished_morph_medallion"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "foolish_asteroids:unfinished_morph_medallion"
+        },
+        [
+          {
+            "item": "minecraft:grass"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "foolish_asteroids:unfinished_morph_medallion"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "foolish_asteroids:unfinished_morph_medallion"
+        },
+        [
+          {
+            "item": "minecraft:wool"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "foolish_asteroids:unfinished_morph_medallion"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "foolish_asteroids:unfinished_morph_medallion"
+        },
+        [
+          {
+            "item": "minecraft:shears"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "foolish_asteroids:unfinished_morph_medallion"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "foolish_asteroids:sheep_medal"
+    }
+  ],
+  "loops": 1
+}

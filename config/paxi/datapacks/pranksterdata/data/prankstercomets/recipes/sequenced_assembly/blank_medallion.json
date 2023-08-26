@@ -60,6 +60,24 @@
           "item": "foolish_asteroids:incomplete_blank_medallion"
         }
       ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "foolish_asteroids:incomplete_blank_medallion"
+        },
+        {
+          "fluid": "create_enchantment_industry:experience",
+          "nbt": {},
+          "amount": 100
+        }
+      ],
+      "results": [
+        {
+          "item": "foolish_asteroids:unfinished_morph_medallion"
+        }
+      ]
     }
   ],
   "results": [

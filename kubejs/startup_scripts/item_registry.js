@@ -8,6 +8,9 @@ onEvent('item.registry', event => {
       event.create('heliodor_glint')
       event.create('grave_moss')
       event.create('caterpillar')
+
+      event.create('dormant_zombie_medal')
+      event.create('dormant_skeleton_medal')
 })
 
 onEvent('block.registry', event => {

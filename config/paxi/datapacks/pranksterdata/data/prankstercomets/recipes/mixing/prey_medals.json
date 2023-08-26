@@ -1,0 +1,29 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "foolish_asteroids:hunted_emblem"
+    },
+    {
+      "item": "naturalist:bear_fur"
+    }
+  ],
+  "results": [
+    {
+      "item": "foolish_asteroids:deer_medal",
+      "chance": 0.5
+    },
+    {
+      "item": "foolish_asteroids:squirrel_medal",
+      "chance": 0.5
+    },
+    {
+      "item": "foolish_asteroids:gazelle_medal",
+      "chance": 0.5
+    },
+    {
+      "item": "foolish_asteroids:rabbit_medal",
+      "chance": 0.5
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "SM MS",
+    "S M S",
+    "PSPSP"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:iron_ingot"
+    },
+    "M": {
+      "item": "foolish_asteroids:blank_medallion"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "foolish_asteroids:freight_emblem"
+  },
+  "acceptMirrored": true
+}

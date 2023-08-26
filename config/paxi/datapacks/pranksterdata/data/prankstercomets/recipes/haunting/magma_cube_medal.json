@@ -1,0 +1,13 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "foolish_asteroids:slime_medal"
+    }
+  ],
+  "results": [
+    {
+      "item": "foolish_asteroids:magma_cube_medal"
+    }
+  ]
+}

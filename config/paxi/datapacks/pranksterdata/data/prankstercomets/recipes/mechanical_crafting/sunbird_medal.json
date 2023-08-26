@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "I  M  I",
+    "WI W IW",
+    "IWIIIwI",
+    "W IWI W",
+    "I  I  I"
+  ],
+  "key": {
+    "M": {
+      "item": "prankster_comets:blank_medallion"
+    },
+    "W": {
+      "item": "minecraft:honeycomb"
+    },
+    "I": {
+      "item": "prankster_comets:sunbird_feather"
+    }
+  },
+  "result": {
+    "item": "foolish_asteroids:sunbird_medal"
+  }
+}

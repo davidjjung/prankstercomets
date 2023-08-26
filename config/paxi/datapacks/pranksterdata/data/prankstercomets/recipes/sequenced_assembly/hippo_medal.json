@@ -1,0 +1,71 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "foolish_asteroids:blank_medallion"
+  },
+  "transitionalItem": {
+    "item": "foolish_asteroids:unfinished_morph_medallion"
+  },
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "foolish_asteroids:unfinished_morph_medallion"
+        },
+        {
+          "fluid": "minecraft:water",
+          "nbt": {},
+          "amount": 1000
+        }
+      ],
+      "results": [
+        {
+          "item": "foolish_asteroids:unfinished_morph_medallion"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "foolish_asteroids:unfinished_morph_medallion"
+        },
+        [
+          {
+            "item": "minecraft:melon"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "foolish_asteroids:unfinished_morph_medallion"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "foolish_asteroids:unfinished_morph_medallion"
+        },
+        [
+          {
+            "item": "minecraft:melon"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "foolish_asteroids:unfinished_morph_medallion"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "foolish_asteroids:hippo_medal"
+    }
+  ],
+  "loops": 2
+}

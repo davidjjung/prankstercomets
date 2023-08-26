@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " H ",
+    "BMB",
+    " B ",
+    "BBB"
+  ],
+  "key": {
+    "H": {
+      "item": "foolish_asteroids:zombie_brain"
+    },
+    "B": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "M": {
+      "item": "foolish_asteroids:blank_medallion"
+    }
+  },
+  "result": {
+    "item": "kubejs:dormant_zombie_medal"
+  },
+  "acceptMirrored": true
+}

@@ -1,0 +1,89 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "foolish_asteroids:blank_medallion"
+  },
+  "transitionalItem": {
+    "item": "foolish_asteroids:unfinished_morph_medallion"
+  },
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "foolish_asteroids:unfinished_morph_medallion"
+        },
+        {
+          "fluid": "minecraft:lava",
+          "nbt": {},
+          "amount": 500
+        }
+      ],
+      "results": [
+        {
+          "item": "foolish_asteroids:unfinished_morph_medallion"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "foolish_asteroids:unfinished_morph_medallion"
+        },
+        [
+          {
+            "item": "minecraft:netherite_scrap"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "foolish_asteroids:unfinished_morph_medallion"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "foolish_asteroids:unfinished_morph_medallion"
+        },
+        [
+          {
+            "item": "minecraft:netherite_scrap"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "foolish_asteroids:unfinished_morph_medallion"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "foolish_asteroids:unfinished_morph_medallion"
+        },
+        {
+          "fluid": "minecraft:lava",
+          "nbt": {},
+          "amount": 500
+        }
+      ],
+      "results": [
+        {
+          "item": "foolish_asteroids:unfinished_morph_medallion"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "foolish_asteroids:strider_medal"
+    }
+  ],
+  "loops": 1
+}

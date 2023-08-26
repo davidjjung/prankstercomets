@@ -1,0 +1,48 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "foolish_asteroids:barnyard_emblem"
+  },
+  "transitionalItem": {
+    "item": "foolish_asteroids:unfinished_morph_medallion"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "foolish_asteroids:unfinished_morph_medallion"
+        },
+        [
+          {
+            "item": "minecraft:slime_ball"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "foolish_asteroids:unfinished_morph_medallion"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "foolish_asteroids:unfinished_morph_medallion"
+        }
+      ],
+      "results": [
+        {
+          "item": "foolish_asteroids:unfinished_morph_medallion"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "foolish_asteroids:slime_medal"
+    }
+  ],
+  "loops": 3
+}

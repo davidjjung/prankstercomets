@@ -1,0 +1,89 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "foolish_asteroids:barnyard_emblem"
+  },
+  "transitionalItem": {
+    "item": "foolish_asteroids:unfinished_morph_medallion"
+  },
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "foolish_asteroids:unfinished_morph_medallion"
+        },
+        {
+          "fluid": "minecraft:milk",
+          "nbt": {},
+          "amount": 250
+        }
+      ],
+      "results": [
+        {
+          "item": "foolish_asteroids:unfinished_morph_medallion"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "foolish_asteroids:unfinished_morph_medallion"
+        },
+        {
+          "fluid": "minecraft:milk",
+          "nbt": {},
+          "amount": 250
+        }
+      ],
+      "results": [
+        {
+          "item": "foolish_asteroids:unfinished_morph_medallion"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "foolish_asteroids:unfinished_morph_medallion"
+        },
+        {
+          "fluid": "minecraft:milk",
+          "nbt": {},
+          "amount": 250
+        }
+      ],
+      "results": [
+        {
+          "item": "foolish_asteroids:unfinished_morph_medallion"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "foolish_asteroids:unfinished_morph_medallion"
+        },
+        {
+          "fluid": "minecraft:milk",
+          "nbt": {},
+          "amount": 250
+        }
+      ],
+      "results": [
+        {
+          "item": "foolish_asteroids:unfinished_morph_medallion"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "foolish_asteroids:cow_medal"
+    }
+  ],
+  "loops": 2
+}
