@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "UUU",
+    "SMS",
+    " S "
+  ],
+  "key": {
+    "U": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "S": {
+      "item": "minecraft:soul_sand"
+    },
+    "M": {
+      "item": "foolish_asteroids:blank_medallion"
+    }
+  },
+  "result": {
+    "item": "foolish_asteroids:wither_medal"
+  },
+  "acceptMirrored": true
+}

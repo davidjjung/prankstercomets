@@ -49,7 +49,7 @@ onEvent("morejs.potion_brewing.register", (event) => {
     event.addCustomBrewing("galosphere:allurite_shard", "foolish_asteroids:awkward_elixir", "foolish_asteroids:dilatory_elixir");
     event.addCustomBrewing("foolish_asteroids:zombie_brain", "foolish_asteroids:awkward_elixir", "foolish_asteroids:endemic_elixir");
     event.addCustomBrewing("environmental:yak_hair", "foolish_asteroids:awkward_elixir", "foolish_asteroids:gracious_elixir");
-    event.addCustomBrewing("minecraft:crimson_roots", "foolish_asteroids:awkward_elixir", "foolish_asteroids:hearsay_elixir");
+    event.addCustomBrewing("minecraft:weeping_vines", "foolish_asteroids:awkward_elixir", "foolish_asteroids:hearsay_elixir");
     event.addCustomBrewing("minecraft:crimson_fungus", "foolish_asteroids:awkward_elixir", "foolish_asteroids:heresy_elixir");
     event.addCustomBrewing("undergarden:ditchbulb_paste", "foolish_asteroids:awkward_elixir", "foolish_asteroids:incendiary_elixir");
     event.addCustomBrewing("farmersrespite:coffee_beans", "foolish_asteroids:awkward_elixir", "foolish_asteroids:jittery_elixir");

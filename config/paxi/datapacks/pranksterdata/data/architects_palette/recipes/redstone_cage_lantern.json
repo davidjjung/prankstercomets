@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "TET"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:glass_pane"
+    },
+    "E": {
+      "item": "kubejs:monazite_grout"
+    },
+    "T": {
+      "item": "dustrial_decor:industrial_iron_billet"
+    }
+  },
+  "result": {
+    "item": "architects_palette:redstone_cage_lantern",
+    "count": 3
+  }
+}

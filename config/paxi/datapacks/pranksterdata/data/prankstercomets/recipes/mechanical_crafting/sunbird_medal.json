@@ -9,13 +9,13 @@
   ],
   "key": {
     "M": {
-      "item": "prankster_comets:blank_medallion"
+      "item": "foolish_asteroids:blank_medallion"
     },
     "W": {
       "item": "minecraft:honeycomb"
     },
     "I": {
-      "item": "prankster_comets:sunbird_feather"
+      "item": "foolish_asteroids:sunbird_feather"
     }
   },
   "result": {

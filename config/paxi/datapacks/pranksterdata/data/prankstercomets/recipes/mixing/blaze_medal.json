@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:blaze_rod"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    },
+    {
+      "item": "foolish_asteroids:blank_medallion"
+    }
+  ],
+  "results": [
+    {
+      "item": "foolish_asteroids:blaze_medal"
+    }
+  ],
+  "heatRequirement": "heated"
+}

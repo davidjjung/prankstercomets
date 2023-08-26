@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " SPS ",
+    "SPMPS",
+    " SPS "
+  ],
+  "key": {
+    "S": {
+      "item": "upgrade_aquatic:guardian_spine"
+    },
+    "M": {
+      "item": "foolish_asteroids:blank_medallion"
+    },
+    "P": {
+      "item": "minecraft:prismarine_shard"
+    }
+  },
+  "result": {
+    "item": "foolish_asteroids:guardian_medal"
+  },
+  "acceptMirrored": true
+}

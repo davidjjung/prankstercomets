@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " G ",
+    "AMF",
+    " C ",
+    "BBB"
+  ],
+  "key": {
+    "A": {
+      "item": "mannequins:mannequin"
+    },
+    "C": {
+      "item": "mannequins:statue"
+    },
+    "F": {
+      "item": "minecraft:armor_stand"
+    },
+    "G": {
+      "item": "dummmmmmy:target_dummy"
+    },
+    "B": {
+      "tag": "minecraft:planks"
+    },
+    "M": {
+      "item": "foolish_asteroids:blank_medallion"
+    }
+  },
+  "result": {
+    "item": "foolish_asteroids:proprietary_emblem"
+  },
+  "acceptMirrored": true
+}

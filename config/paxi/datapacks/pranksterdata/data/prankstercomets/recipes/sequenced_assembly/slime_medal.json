@@ -1,7 +1,7 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "foolish_asteroids:barnyard_emblem"
+    "item": "foolish_asteroids:blank_medallion"
   },
   "transitionalItem": {
     "item": "foolish_asteroids:unfinished_morph_medallion"

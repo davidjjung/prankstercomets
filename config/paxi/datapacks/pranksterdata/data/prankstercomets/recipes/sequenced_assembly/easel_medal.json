@@ -1,7 +1,7 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "foolish_asteroids:blank_medallion"
+    "item": "foolish_asteroids:barnyard_emblem"
   },
   "transitionalItem": {
     "item": "foolish_asteroids:unfinished_morph_medallion"
@@ -15,7 +15,7 @@
         },
         [
           {
-            "item": "savage_and_ravage:creeper_spores"
+            "item": "zetter:canvas"
           }
         ]
       ],
@@ -33,7 +33,7 @@
         },
         [
           {
-            "item": "savage_and_ravage:creeper_spores"
+            "item": "zetter:paints"
           }
         ]
       ],
@@ -51,7 +51,7 @@
         },
         [
           {
-            "item": "savage_and_ravage:creeper_spores"
+            "item": "zetter:paints"
           }
         ]
       ],
@@ -64,8 +64,8 @@
   ],
   "results": [
     {
-      "item": "foolish_asteroids:creeper_medal"
+      "item": "foolish_asteroids:easel_medal"
     }
   ],
-  "loops": 2
+  "loops": 1
 }

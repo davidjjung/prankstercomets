@@ -1,23 +1,26 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "foolish_asteroids:blank_medallion"
+    "item": "foolish_asteroids:guardian_medal"
   },
   "transitionalItem": {
     "item": "foolish_asteroids:unfinished_morph_medallion"
   },
   "sequence": [
     {
-      "type": "create:deploying",
+      "type": "create:filling",
       "ingredients": [
         {
           "item": "foolish_asteroids:unfinished_morph_medallion"
         },
-        [
-          {
-            "item": "savage_and_ravage:creeper_spores"
-          }
-        ]
+        {
+          "fluid": "create:potion",
+          "nbt": {
+            "Bottle": "REGULAR",
+            "Potion": "minecraft:strength"
+          },
+          "amount": 250
+        }
       ],
       "results": [
         {
@@ -33,25 +36,7 @@
         },
         [
           {
-            "item": "savage_and_ravage:creeper_spores"
-          }
-        ]
-      ],
-      "results": [
-        {
-          "item": "foolish_asteroids:unfinished_morph_medallion"
-        }
-      ]
-    },
-    {
-      "type": "create:deploying",
-      "ingredients": [
-        {
-          "item": "foolish_asteroids:unfinished_morph_medallion"
-        },
-        [
-          {
-            "item": "savage_and_ravage:creeper_spores"
+            "item": "upgrade_aquatic:elder_guardian_spine"
           }
         ]
       ],
@@ -64,7 +49,7 @@
   ],
   "results": [
     {
-      "item": "foolish_asteroids:creeper_medal"
+      "item": "foolish_asteroids:elder_guardian_medal"
     }
   ],
   "loops": 2
