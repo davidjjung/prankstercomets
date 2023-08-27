@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "foolish_asteroids:lightning_bottle"
+    },
+    {
+      "item": "kubejs:dormant_zombie_medal"
+    }
+  ],
+  "results": [
+    {
+      "item": "foolish_asteroids:zombie_medal"
+    }
+  ]
+}
