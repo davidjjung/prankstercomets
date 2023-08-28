@@ -66,7 +66,7 @@
 	#Whether the debug screen shows all or reduced information; and whether the effects of F3+B (entity hitboxes) and F3+G (chunk boundaries) are shown.
 	reduced_debug_info = false
 	#Whether the feedback from commands executed by a player should show up in chat. Also affects the default behavior of whether command blocks store their output text.
-	send_command_feedback = true
+	send_command_feedback = false
 	#Whether death messages are put into chat when a player dies. Also affects whether a message is sent to the pet's owner when the pet dies.
 	show_death_messages = true
 	#The number of blocks outward from the world spawn coordinates that a player spawns in when first joining a server or when dying without a personal spawnpoint. Has no effect on servers where the default game mode is Adventure.
