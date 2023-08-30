@@ -15,7 +15,7 @@
         },
         [
           {
-            "item": "minecraft:grass"
+            "item": "minecraft:cod"
           }
         ]
       ],
@@ -33,7 +33,7 @@
         },
         [
           {
-            "tag": "minecraft:wool"
+            "item": "ecologics:seashell"
           }
         ]
       ],
@@ -51,7 +51,7 @@
         },
         [
           {
-            "item": "minecraft:shears"
+            "item": "ecologics:seashell"
           }
         ]
       ],
@@ -64,7 +64,7 @@
   ],
   "results": [
     {
-      "item": "foolish_asteroids:sheep_medal"
+      "item": "foolish_asteroids:seal_medal"
     }
   ],
   "loops": 1
